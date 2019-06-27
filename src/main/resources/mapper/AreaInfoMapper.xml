@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.tz.order.dao.AreaInfoMapper" >
+  <resultMap id="BaseResultMap" type="com.tz.order.domain.Area">
+    <result column="id" property="id" jdbcType="INTEGER" />
+    <result column="name" property="name" jdbcType="VARCHAR" />
+    <result column="color" property="color" jdbcType="VARCHAR" />
+    <result column="left" property="left" jdbcType="INTEGER" />
+    <result column="top" property="top" jdbcType="INTEGER" />
+    <result column="width" property="width" jdbcType="INTEGER" />
+    <result column="height" property="height" jdbcType="INTEGER" />
+    <result column="activiti_id" property="activitiId" jdbcType="INTEGER"/>
+  </resultMap>
+  <insert id="insert" parameterType="com.tz.order.domain.Area" useGeneratedKeys="true" keyProperty="id">
+    insert into area_info (id,`name`,`color`, `left`, `top`,`width`,`height`,`activiti_id`)
+    values (#{id,jdbcType=INTEGER}, #{name,jdbcType=VARCHAR},
+      #{color,jdbcType=VARCHAR}, #{left,jdbcType=INTEGER}, #{top,jdbcType=INTEGER},
+      #{width,jdbcType=INTEGER}, #{height,jdbcType=INTEGER}, #{activitiId,jdbcType=INTEGER})
+  </insert>
+
+
+  <select id="queryList" resultMap="BaseResultMap">
+      select * from area_info
+  </select>
+
+  <update id="update" parameterType="com.tz.order.domain.Area">
+    update area_info
+    <set>
+      <if test="name != null">`name`=#{name},</if>
+    </set>
+    where id=#{id}
+  </update>
+</mapper>

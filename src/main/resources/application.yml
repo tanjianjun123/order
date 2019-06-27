@@ -1,0 +1,62 @@
+server:
+  port: 8080
+  servlet:
+    context-path: /order
+
+
+spring:
+  datasource:
+    master:
+      jdbc-url: jdbc:mysql://49.4.67.151:3306/order
+      username: root
+      password: Hyyn2017
+      driver-class-name: com.mysql.cj.jdbc.Driver
+    slave1:
+      jdbc-url: jdbc:mysql://121.43.176.216:3306/order
+      username: root
+      password: Tanjianjun2018@
+      driver-class-name: com.mysql.cj.jdbc.Driver
+    slave2:
+      jdbc-url: jdbc:mysql://49.4.67.151:3306/order
+      username: root
+      password: Hyyn2017
+      driver-class-name: com.mysql.cj.jdbc.Driver
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+  redis:
+    host: 127.0.0.1
+    port: 6379
+    jedis:
+       pool:
+         max-active: 8
+         min-idle: 0
+         max-idle: 8
+         max-wait: -1ms
+       timeout: 2000ms
+  mvc:
+     static-path-pattern: static/**
+     view:
+       prefix: /WEB-INF/pages
+  kafka:
+    bootstrap-servers: 121.43.176.216:9092
+    consumer:
+      groupId: executor
+      enable-auto-commit: true
+      keyDeserializer: org.apache.kafka.common.serialization.StringDeserializer
+      valueDserializer: org.apache.kafka.common.serialization.StringDeserializer
+    producer:
+      groupId: executor
+      keyDeserializer: org.apache.kafka.common.serialization.StringSerializer
+      valueDserializer: org.apache.kafka.common.serialization.StringSerializer
+      batch-size: 16384
+      buffer-memory: 33554432
+
+  mybatis:
+  mapper-locations: classpath*:mapper/*.xml
+  type-aliases-package: com.tz.order.domain
+
+#日志配置
+logging:
+  path: logback.xml

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.tz.order.dao.LineInfoMapper" >
+  <resultMap id="BaseResultMap" type="com.tz.order.domain.Line" >
+    <result column="id" property="id" jdbcType="INTEGER" />
+    <result column="name" property="name" jdbcType="VARCHAR" />
+    <result column="type" property="type" jdbcType="VARCHAR" />
+    <result column="from" property="from" jdbcType="VARCHAR" />
+    <result column="to" property="to" jdbcType="VARCHAR" />
+    <result column="marked" property="marked" jdbcType="BOOLEAN" />
+    <result column="activiti_id" property="activitiId" jdbcType="INTEGER" />
+  </resultMap>
+  <insert id="insert" parameterType="com.tz.order.domain.Line" >
+    insert into line_info (id, `name`,`type`, `from`, `to`,`marked`,`activiti_id`)
+    values (#{id,jdbcType=INTEGER}, #{name,jdbcType=VARCHAR},
+      #{type,jdbcType=VARCHAR}, #{from,jdbcType=VARCHAR}, #{to,jdbcType=VARCHAR},
+      #{marked,jdbcType=BOOLEAN}, #{activitiId,jdbcType=INTEGER})
+  </insert>
+
+  <select id="queryList" resultMap="BaseResultMap">
+      select * from line_info
+  </select>
+
+  <update id="update" parameterType="com.tz.order.domain.Line">
+    update line_info
+    <set>
+      <if test="name != null">`name`=#{name},</if>
+    </set>
+    where id=#{id}
+  </update>
+</mapper>

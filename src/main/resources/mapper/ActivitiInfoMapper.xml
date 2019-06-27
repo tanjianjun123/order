@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.tz.order.dao.ActivitiInfoMapper" >
+  <resultMap id="BaseResultMap" type="com.tz.order.domain.Activiti">
+    <result column="id" property="id" jdbcType="INTEGER" />
+    <result column="title" property="title" jdbcType="VARCHAR" />
+    <result column="content" property="content" jdbcType="VARCHAR" />
+    <result column="create_time" property="createTime" jdbcType="TIMESTAMP" />
+    <result column="update_time" property="updateTime" jdbcType="TIMESTAMP" />
+
+  </resultMap>
+  <insert id="insert" parameterType="com.tz.order.domain.Activiti">
+    <selectKey resultType="java.lang.Integer" order="AFTER" keyProperty="id">
+      SELECT LAST_INSERT_ID()
+    </selectKey>
+    insert into activiti_info (id,`title`,`content`)
+    values (#{id,jdbcType=INTEGER}, #{title,jdbcType=VARCHAR}, #{content,jdbcType=VARCHAR})
+  </insert>
+
+
+  <select id="queryList" resultMap="BaseResultMap">
+      select * from activiti_info
+  </select>
+
+  <select id="queryById" parameterType="java.lang.Integer" resultMap="BaseResultMap">
+      select * from activiti_info where id=#{id}
+  </select>
+
+  <update id="update" parameterType="com.tz.order.domain.Activiti">
+    update activiti_info
+    <set>
+      <if test="name != null">`title`=#{title},</if>
+    </set>
+    where id=#{id}
+  </update>
+</mapper>

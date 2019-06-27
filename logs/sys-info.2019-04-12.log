@@ -1,0 +1,807 @@
+11:03:49.327 [restartedMain] INFO  c.t.o.OrderApplication - [logStarting,50] - Starting OrderApplication on 8EL23LLFZAW1R87 with PID 12224 (E:\develop\idea_workspace\order\target\classes started by Administrator in E:\develop\idea_workspace\order)
+11:03:49.428 [restartedMain] INFO  c.t.o.OrderApplication - [logStartupProfileInfo,675] - No active profile set, falling back to default profiles: default
+11:03:49.701 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - [logTo,227] - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+11:03:49.702 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - [logTo,227] - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+11:03:51.774 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - [multipleStoresDetected,244] - Multiple Spring Data modules found, entering strict repository configuration mode!
+11:03:51.775 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - [registerRepositoriesIn,126] - Bootstrapping Spring Data repositories in DEFAULT mode.
+11:03:51.803 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - [registerRepositoriesIn,182] - Finished Spring Data repository scanning in 16ms. Found 0 repository interfaces.
+11:03:51.824 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - [multipleStoresDetected,244] - Multiple Spring Data modules found, entering strict repository configuration mode!
+11:03:51.825 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - [registerRepositoriesIn,126] - Bootstrapping Spring Data repositories in DEFAULT mode.
+11:03:51.847 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - [registerRepositoriesIn,182] - Finished Spring Data repository scanning in 5ms. Found 0 repository interfaces.
+11:03:52.381 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - [postProcessAfterInitialization,330] - Bean 'org.springframework.kafka.annotation.KafkaBootstrapConfiguration' of type [org.springframework.kafka.annotation.KafkaBootstrapConfiguration$$EnhancerBySpringCGLIB$$a311538a] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+11:03:52.727 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - [postProcessAfterInitialization,330] - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$cf5f4207] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+11:03:53.954 [restartedMain] INFO  o.s.b.w.e.t.TomcatWebServer - [initialize,90] - Tomcat initialized with port(s): 8080 (http)
+11:03:53.978 [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-8080"]
+11:03:53.986 [restartedMain] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+11:03:53.987 [restartedMain] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet Engine: Apache Tomcat/9.0.12
+11:03:53.999 [restartedMain] INFO  o.a.c.c.AprLifecycleListener - [log,173] - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_201\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Java\jdk1.8.0_201\bin;E:\Program Files\Git\cmd;C:\Users\Administrator\AppData\Local\Microsoft\WindowsApps;.]
+11:03:54.190 [restartedMain] INFO  o.a.c.c.C.[.[.[/order] - [log,173] - Initializing Spring embedded WebApplicationContext
+11:03:54.192 [restartedMain] INFO  o.s.w.c.ContextLoader - [prepareWebApplicationContext,285] - Root WebApplicationContext: initialization completed in 4489 ms
+11:03:54.382 [restartedMain] INFO  o.s.b.w.s.ServletRegistrationBean - [addRegistration,186] - Servlet dispatcherServlet mapped to [*.action, /configuration/ui, /swagger-resources, /v2/api-docs, /configuration/security]
+11:03:54.383 [restartedMain] INFO  o.s.b.w.s.ServletRegistrationBean - [addRegistration,186] - Servlet dispatcherServlet mapped to [/]
+11:03:54.384 [restartedMain] INFO  o.s.b.w.s.RegistrationBean - [register,111] - Servlet dispatcherServlet was not registered (possibly already registered?)
+11:03:54.389 [restartedMain] INFO  o.s.b.w.s.FilterRegistrationBean - [configure,248] - Mapping filter: 'characterEncodingFilter' to: [/*]
+11:03:54.390 [restartedMain] INFO  o.s.b.w.s.FilterRegistrationBean - [configure,248] - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+11:03:54.390 [restartedMain] INFO  o.s.b.w.s.FilterRegistrationBean - [configure,248] - Mapping filter: 'formContentFilter' to: [/*]
+11:03:54.391 [restartedMain] INFO  o.s.b.w.s.FilterRegistrationBean - [configure,248] - Mapping filter: 'requestContextFilter' to: [/*]
+11:03:58.196 [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor - [initialize,171] - Initializing ExecutorService 'applicationTaskExecutor'
+11:03:58.440 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - [startServer,57] - LiveReload server is running on port 35729
+11:04:00.461 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - [onApplicationEvent,84] - Context refreshed
+11:04:00.482 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - [onApplicationEvent,87] - Found 1 custom documentation plugin(s)
+11:04:00.493 [restartedMain] INFO  s.d.s.w.s.ApiListingReferenceScanner - [scan,44] - Scanning for api listing references
+11:04:00.689 [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-8080"]
+11:04:00.710 [restartedMain] INFO  o.a.t.u.n.NioSelectorPool - [log,173] - Using a shared selector for servlet write/read
+11:04:00.735 [restartedMain] INFO  o.s.b.w.e.t.TomcatWebServer - [start,204] - Tomcat started on port(s): 8080 (http) with context path '/order'
+11:04:00.739 [restartedMain] INFO  c.t.o.OrderApplication - [logStarted,59] - Started OrderApplication in 12.304 seconds (JVM running for 15.432)
+11:04:19.204 [http-nio-8080-exec-5] INFO  o.a.t.u.h.p.Cookie - [log,173] - A cookie header was received [1554694546; Hm_lvt_3767979e7494107d90440379bed07921=1554285408,1554694546] that contained an invalid cookie. That cookie will be ignored.Note: further occurrences of this error will be logged at DEBUG level.
+13:17:42.263 [restartedMain] INFO  c.t.o.OrderApplication - [logStarting,50] - Starting OrderApplication on 8EL23LLFZAW1R87 with PID 6316 (E:\develop\idea_workspace\order\target\classes started by Administrator in E:\develop\idea_workspace\order)
+13:17:42.274 [restartedMain] INFO  c.t.o.OrderApplication - [logStartupProfileInfo,675] - No active profile set, falling back to default profiles: default
+13:17:42.403 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - [logTo,227] - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+13:17:42.404 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - [logTo,227] - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+13:17:44.502 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - [multipleStoresDetected,244] - Multiple Spring Data modules found, entering strict repository configuration mode!
+13:17:44.503 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - [registerRepositoriesIn,126] - Bootstrapping Spring Data repositories in DEFAULT mode.
+13:17:44.533 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - [registerRepositoriesIn,182] - Finished Spring Data repository scanning in 17ms. Found 0 repository interfaces.
+13:17:44.555 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - [multipleStoresDetected,244] - Multiple Spring Data modules found, entering strict repository configuration mode!
+13:17:44.557 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - [registerRepositoriesIn,126] - Bootstrapping Spring Data repositories in DEFAULT mode.
+13:17:44.579 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - [registerRepositoriesIn,182] - Finished Spring Data repository scanning in 6ms. Found 0 repository interfaces.
+13:17:45.108 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - [postProcessAfterInitialization,330] - Bean 'org.springframework.kafka.annotation.KafkaBootstrapConfiguration' of type [org.springframework.kafka.annotation.KafkaBootstrapConfiguration$$EnhancerBySpringCGLIB$$817f22da] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+13:17:45.649 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - [postProcessAfterInitialization,330] - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$adcd1157] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+13:17:46.871 [restartedMain] INFO  o.s.b.w.e.t.TomcatWebServer - [initialize,90] - Tomcat initialized with port(s): 8080 (http)
+13:17:46.891 [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-8080"]
+13:17:46.898 [restartedMain] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+13:17:46.898 [restartedMain] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet Engine: Apache Tomcat/9.0.12
+13:17:46.909 [restartedMain] INFO  o.a.c.c.AprLifecycleListener - [log,173] - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_201\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Java\jdk1.8.0_201\bin;E:\Program Files\Git\cmd;C:\Users\Administrator\AppData\Local\Microsoft\WindowsApps;.]
+13:17:47.053 [restartedMain] INFO  o.a.c.c.C.[.[.[/order] - [log,173] - Initializing Spring embedded WebApplicationContext
+13:17:47.054 [restartedMain] INFO  o.s.w.c.ContextLoader - [prepareWebApplicationContext,285] - Root WebApplicationContext: initialization completed in 4650 ms
+13:17:47.188 [restartedMain] INFO  o.s.b.w.s.ServletRegistrationBean - [addRegistration,186] - Servlet dispatcherServlet mapped to [*.action, /configuration/ui, /swagger-resources, /v2/api-docs, /configuration/security]
+13:17:47.189 [restartedMain] INFO  o.s.b.w.s.ServletRegistrationBean - [addRegistration,186] - Servlet dispatcherServlet mapped to [/]
+13:17:47.190 [restartedMain] INFO  o.s.b.w.s.RegistrationBean - [register,111] - Servlet dispatcherServlet was not registered (possibly already registered?)
+13:17:47.196 [restartedMain] INFO  o.s.b.w.s.FilterRegistrationBean - [configure,248] - Mapping filter: 'characterEncodingFilter' to: [/*]
+13:17:47.196 [restartedMain] INFO  o.s.b.w.s.FilterRegistrationBean - [configure,248] - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+13:17:47.197 [restartedMain] INFO  o.s.b.w.s.FilterRegistrationBean - [configure,248] - Mapping filter: 'formContentFilter' to: [/*]
+13:17:47.197 [restartedMain] INFO  o.s.b.w.s.FilterRegistrationBean - [configure,248] - Mapping filter: 'requestContextFilter' to: [/*]
+13:17:51.050 [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor - [initialize,171] - Initializing ExecutorService 'applicationTaskExecutor'
+13:17:51.281 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - [startServer,57] - LiveReload server is running on port 35729
+13:17:53.775 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - [onApplicationEvent,84] - Context refreshed
+13:17:53.796 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - [onApplicationEvent,87] - Found 1 custom documentation plugin(s)
+13:17:53.809 [restartedMain] INFO  s.d.s.w.s.ApiListingReferenceScanner - [scan,44] - Scanning for api listing references
+13:17:54.018 [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-8080"]
+13:17:54.031 [restartedMain] INFO  o.a.t.u.n.NioSelectorPool - [log,173] - Using a shared selector for servlet write/read
+13:17:54.052 [restartedMain] INFO  o.s.b.w.e.t.TomcatWebServer - [start,204] - Tomcat started on port(s): 8080 (http) with context path '/order'
+13:17:54.057 [restartedMain] INFO  c.t.o.OrderApplication - [logStarted,59] - Started OrderApplication in 12.793 seconds (JVM running for 15.114)
+13:18:32.573 [restartedMain] INFO  c.t.o.OrderApplication - [logStarting,50] - Starting OrderApplication on 8EL23LLFZAW1R87 with PID 1808 (E:\develop\idea_workspace\order\target\classes started by Administrator in E:\develop\idea_workspace\order)
+13:18:32.582 [restartedMain] INFO  c.t.o.OrderApplication - [logStartupProfileInfo,675] - No active profile set, falling back to default profiles: default
+13:18:32.794 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - [logTo,227] - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+13:18:32.796 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - [logTo,227] - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+13:18:34.618 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - [multipleStoresDetected,244] - Multiple Spring Data modules found, entering strict repository configuration mode!
+13:18:34.618 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - [registerRepositoriesIn,126] - Bootstrapping Spring Data repositories in DEFAULT mode.
+13:18:34.641 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - [registerRepositoriesIn,182] - Finished Spring Data repository scanning in 15ms. Found 0 repository interfaces.
+13:18:34.658 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - [multipleStoresDetected,244] - Multiple Spring Data modules found, entering strict repository configuration mode!
+13:18:34.659 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - [registerRepositoriesIn,126] - Bootstrapping Spring Data repositories in DEFAULT mode.
+13:18:34.674 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - [registerRepositoriesIn,182] - Finished Spring Data repository scanning in 5ms. Found 0 repository interfaces.
+13:18:35.181 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - [postProcessAfterInitialization,330] - Bean 'org.springframework.kafka.annotation.KafkaBootstrapConfiguration' of type [org.springframework.kafka.annotation.KafkaBootstrapConfiguration$$EnhancerBySpringCGLIB$$72b41739] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+13:18:35.472 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - [postProcessAfterInitialization,330] - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$9f0205b6] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+13:18:36.575 [restartedMain] INFO  o.s.b.w.e.t.TomcatWebServer - [initialize,90] - Tomcat initialized with port(s): 8080 (http)
+13:18:36.591 [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-8080"]
+13:18:36.597 [restartedMain] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+13:18:36.597 [restartedMain] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet Engine: Apache Tomcat/9.0.12
+13:18:36.605 [restartedMain] INFO  o.a.c.c.AprLifecycleListener - [log,173] - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_201\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Java\jdk1.8.0_201\bin;E:\Program Files\Git\cmd;C:\Users\Administrator\AppData\Local\Microsoft\WindowsApps;.]
+13:18:36.738 [restartedMain] INFO  o.a.c.c.C.[.[.[/order] - [log,173] - Initializing Spring embedded WebApplicationContext
+13:18:36.739 [restartedMain] INFO  o.s.w.c.ContextLoader - [prepareWebApplicationContext,285] - Root WebApplicationContext: initialization completed in 3942 ms
+13:18:36.853 [restartedMain] INFO  o.s.b.w.s.ServletRegistrationBean - [addRegistration,186] - Servlet dispatcherServlet mapped to [*.action, /configuration/ui, /swagger-resources, /v2/api-docs, /configuration/security]
+13:18:36.855 [restartedMain] INFO  o.s.b.w.s.ServletRegistrationBean - [addRegistration,186] - Servlet dispatcherServlet mapped to [/]
+13:18:36.855 [restartedMain] INFO  o.s.b.w.s.RegistrationBean - [register,111] - Servlet dispatcherServlet was not registered (possibly already registered?)
+13:18:36.860 [restartedMain] INFO  o.s.b.w.s.FilterRegistrationBean - [configure,248] - Mapping filter: 'characterEncodingFilter' to: [/*]
+13:18:36.860 [restartedMain] INFO  o.s.b.w.s.FilterRegistrationBean - [configure,248] - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+13:18:36.861 [restartedMain] INFO  o.s.b.w.s.FilterRegistrationBean - [configure,248] - Mapping filter: 'formContentFilter' to: [/*]
+13:18:36.861 [restartedMain] INFO  o.s.b.w.s.FilterRegistrationBean - [configure,248] - Mapping filter: 'requestContextFilter' to: [/*]
+13:18:40.381 [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor - [initialize,171] - Initializing ExecutorService 'applicationTaskExecutor'
+13:18:40.640 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - [startServer,57] - LiveReload server is running on port 35729
+13:18:43.336 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - [onApplicationEvent,84] - Context refreshed
+13:18:43.354 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - [onApplicationEvent,87] - Found 1 custom documentation plugin(s)
+13:18:43.368 [restartedMain] INFO  s.d.s.w.s.ApiListingReferenceScanner - [scan,44] - Scanning for api listing references
+13:18:43.533 [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-8080"]
+13:18:43.548 [restartedMain] INFO  o.a.t.u.n.NioSelectorPool - [log,173] - Using a shared selector for servlet write/read
+13:18:43.568 [restartedMain] INFO  o.s.b.w.e.t.TomcatWebServer - [start,204] - Tomcat started on port(s): 8080 (http) with context path '/order'
+13:18:43.572 [restartedMain] INFO  c.t.o.OrderApplication - [logStarted,59] - Started OrderApplication in 11.853 seconds (JVM running for 13.632)
+13:19:25.272 [http-nio-8080-exec-1] INFO  o.a.t.u.h.p.Cookie - [log,173] - A cookie header was received [1554694546; Hm_lvt_3767979e7494107d90440379bed07921=1554285408,1554694546] that contained an invalid cookie. That cookie will be ignored.Note: further occurrences of this error will be logged at DEBUG level.
+13:19:25.294 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[.[.[/order] - [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+13:19:25.295 [http-nio-8080-exec-1] INFO  o.s.w.s.DispatcherServlet - [initServletBean,521] - Initializing Servlet 'dispatcherServlet'
+13:19:25.386 [http-nio-8080-exec-1] INFO  o.s.w.s.DispatcherServlet - [initServletBean,543] - Completed initialization in 91 ms
+13:25:38.064 [restartedMain] INFO  c.t.o.OrderApplication - [logStarting,50] - Starting OrderApplication on 8EL23LLFZAW1R87 with PID 1364 (E:\develop\idea_workspace\order\target\classes started by Administrator in E:\develop\idea_workspace\order)
+13:25:38.075 [restartedMain] INFO  c.t.o.OrderApplication - [logStartupProfileInfo,675] - No active profile set, falling back to default profiles: default
+13:25:38.207 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - [logTo,227] - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+13:25:38.208 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - [logTo,227] - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+13:25:40.645 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - [multipleStoresDetected,244] - Multiple Spring Data modules found, entering strict repository configuration mode!
+13:25:40.646 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - [registerRepositoriesIn,126] - Bootstrapping Spring Data repositories in DEFAULT mode.
+13:25:40.667 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - [registerRepositoriesIn,182] - Finished Spring Data repository scanning in 14ms. Found 0 repository interfaces.
+13:25:40.682 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - [multipleStoresDetected,244] - Multiple Spring Data modules found, entering strict repository configuration mode!
+13:25:40.683 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - [registerRepositoriesIn,126] - Bootstrapping Spring Data repositories in DEFAULT mode.
+13:25:40.696 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - [registerRepositoriesIn,182] - Finished Spring Data repository scanning in 5ms. Found 0 repository interfaces.
+13:25:41.155 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - [postProcessAfterInitialization,330] - Bean 'org.springframework.kafka.annotation.KafkaBootstrapConfiguration' of type [org.springframework.kafka.annotation.KafkaBootstrapConfiguration$$EnhancerBySpringCGLIB$$c429561e] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+13:25:41.441 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - [postProcessAfterInitialization,330] - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$f077449b] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+13:25:42.487 [restartedMain] INFO  o.s.b.w.e.t.TomcatWebServer - [initialize,90] - Tomcat initialized with port(s): 8080 (http)
+13:25:42.501 [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-8080"]
+13:25:42.508 [restartedMain] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+13:25:42.509 [restartedMain] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet Engine: Apache Tomcat/9.0.12
+13:25:42.518 [restartedMain] INFO  o.a.c.c.AprLifecycleListener - [log,173] - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_201\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Java\jdk1.8.0_201\bin;E:\Program Files\Git\cmd;C:\Users\Administrator\AppData\Local\Microsoft\WindowsApps;.]
+13:25:42.653 [restartedMain] INFO  o.a.c.c.C.[.[.[/order] - [log,173] - Initializing Spring embedded WebApplicationContext
+13:25:42.653 [restartedMain] INFO  o.s.w.c.ContextLoader - [prepareWebApplicationContext,285] - Root WebApplicationContext: initialization completed in 4445 ms
+13:25:42.774 [restartedMain] INFO  o.s.b.w.s.ServletRegistrationBean - [addRegistration,186] - Servlet dispatcherServlet mapped to [*.action, /configuration/ui, /swagger-resources, /v2/api-docs, /configuration/security]
+13:25:42.776 [restartedMain] INFO  o.s.b.w.s.ServletRegistrationBean - [addRegistration,186] - Servlet dispatcherServlet mapped to [/]
+13:25:42.776 [restartedMain] INFO  o.s.b.w.s.RegistrationBean - [register,111] - Servlet dispatcherServlet was not registered (possibly already registered?)
+13:25:42.782 [restartedMain] INFO  o.s.b.w.s.FilterRegistrationBean - [configure,248] - Mapping filter: 'characterEncodingFilter' to: [/*]
+13:25:42.782 [restartedMain] INFO  o.s.b.w.s.FilterRegistrationBean - [configure,248] - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+13:25:42.782 [restartedMain] INFO  o.s.b.w.s.FilterRegistrationBean - [configure,248] - Mapping filter: 'formContentFilter' to: [/*]
+13:25:42.783 [restartedMain] INFO  o.s.b.w.s.FilterRegistrationBean - [configure,248] - Mapping filter: 'requestContextFilter' to: [/*]
+13:25:46.397 [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor - [initialize,171] - Initializing ExecutorService 'applicationTaskExecutor'
+13:25:46.623 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - [startServer,57] - LiveReload server is running on port 35729
+13:25:49.066 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - [onApplicationEvent,84] - Context refreshed
+13:25:49.085 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - [onApplicationEvent,87] - Found 1 custom documentation plugin(s)
+13:25:49.099 [restartedMain] INFO  s.d.s.w.s.ApiListingReferenceScanner - [scan,44] - Scanning for api listing references
+13:25:49.272 [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-8080"]
+13:25:49.285 [restartedMain] INFO  o.a.t.u.n.NioSelectorPool - [log,173] - Using a shared selector for servlet write/read
+13:25:49.307 [restartedMain] INFO  o.s.b.w.e.t.TomcatWebServer - [start,204] - Tomcat started on port(s): 8080 (http) with context path '/order'
+13:25:49.312 [restartedMain] INFO  c.t.o.OrderApplication - [logStarted,59] - Started OrderApplication in 12.113 seconds (JVM running for 13.968)
+13:25:53.522 [http-nio-8080-exec-1] INFO  o.a.t.u.h.p.Cookie - [log,173] - A cookie header was received [1554694546; Hm_lvt_3767979e7494107d90440379bed07921=1554285408,1554694546] that contained an invalid cookie. That cookie will be ignored.Note: further occurrences of this error will be logged at DEBUG level.
+13:25:53.530 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[.[.[/order] - [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+13:25:53.530 [http-nio-8080-exec-1] INFO  o.s.w.s.DispatcherServlet - [initServletBean,521] - Initializing Servlet 'dispatcherServlet'
+13:25:53.566 [http-nio-8080-exec-1] INFO  o.s.w.s.DispatcherServlet - [initServletBean,543] - Completed initialization in 36 ms
+13:26:36.441 [http-nio-8080-exec-4] INFO  c.t.o.c.LoggerAdvice$$EnhancerBySpringCGLIB$$329e303b - [doBefore,45] - 地址URL : http://localhost:8080/order/url/login.action
+13:26:36.442 [http-nio-8080-exec-4] INFO  c.t.o.c.LoggerAdvice$$EnhancerBySpringCGLIB$$329e303b - [doBefore,46] - 方法HTTP_METHOD : GET
+13:26:36.443 [http-nio-8080-exec-4] INFO  c.t.o.c.LoggerAdvice$$EnhancerBySpringCGLIB$$329e303b - [doBefore,47] - IP : 0:0:0:0:0:0:0:1
+13:26:36.447 [http-nio-8080-exec-4] INFO  c.t.o.c.LoggerAdvice$$EnhancerBySpringCGLIB$$329e303b - [doBefore,48] - 方法CLASS_METHOD : com.tz.order.controller.LoginController.login
+13:26:36.448 [http-nio-8080-exec-4] INFO  c.t.o.c.LoggerAdvice$$EnhancerBySpringCGLIB$$329e303b - [doBefore,49] - 参数ARGS : []
+13:26:36.453 [http-nio-8080-exec-4] INFO  c.t.o.c.LoggerAdvice$$EnhancerBySpringCGLIB$$329e303b - [logCostTime,73] - 类class:com.tz.order.controller.LoginController 方法method:login 耗时cost:14ms
+13:26:36.454 [http-nio-8080-exec-4] INFO  c.t.o.c.LoggerAdvice$$EnhancerBySpringCGLIB$$329e303b - [doAfterReturning,66] - 返回结果RESPONSE : /login.html
+13:27:32.667 [restartedMain] INFO  c.t.o.OrderApplication - [logStarting,50] - Starting OrderApplication on 8EL23LLFZAW1R87 with PID 8756 (E:\develop\idea_workspace\order\target\classes started by Administrator in E:\develop\idea_workspace\order)
+13:27:32.707 [restartedMain] INFO  c.t.o.OrderApplication - [logStartupProfileInfo,675] - No active profile set, falling back to default profiles: default
+13:27:32.868 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - [logTo,227] - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+13:27:32.868 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - [logTo,227] - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+13:27:34.623 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - [multipleStoresDetected,244] - Multiple Spring Data modules found, entering strict repository configuration mode!
+13:27:34.623 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - [registerRepositoriesIn,126] - Bootstrapping Spring Data repositories in DEFAULT mode.
+13:27:34.644 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - [registerRepositoriesIn,182] - Finished Spring Data repository scanning in 14ms. Found 0 repository interfaces.
+13:27:34.660 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - [multipleStoresDetected,244] - Multiple Spring Data modules found, entering strict repository configuration mode!
+13:27:34.661 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - [registerRepositoriesIn,126] - Bootstrapping Spring Data repositories in DEFAULT mode.
+13:27:34.675 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - [registerRepositoriesIn,182] - Finished Spring Data repository scanning in 5ms. Found 0 repository interfaces.
+13:27:35.149 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - [postProcessAfterInitialization,330] - Bean 'org.springframework.kafka.annotation.KafkaBootstrapConfiguration' of type [org.springframework.kafka.annotation.KafkaBootstrapConfiguration$$EnhancerBySpringCGLIB$$62b173d2] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+13:27:35.435 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - [postProcessAfterInitialization,330] - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$8eff624f] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+13:27:36.448 [restartedMain] INFO  o.s.b.w.e.t.TomcatWebServer - [initialize,90] - Tomcat initialized with port(s): 8080 (http)
+13:27:36.462 [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-8080"]
+13:27:36.469 [restartedMain] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+13:27:36.470 [restartedMain] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet Engine: Apache Tomcat/9.0.12
+13:27:36.477 [restartedMain] INFO  o.a.c.c.AprLifecycleListener - [log,173] - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_201\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Java\jdk1.8.0_201\bin;E:\Program Files\Git\cmd;C:\Users\Administrator\AppData\Local\Microsoft\WindowsApps;.]
+13:27:36.611 [restartedMain] INFO  o.a.c.c.C.[.[.[/order] - [log,173] - Initializing Spring embedded WebApplicationContext
+13:27:36.611 [restartedMain] INFO  o.s.w.c.ContextLoader - [prepareWebApplicationContext,285] - Root WebApplicationContext: initialization completed in 3743 ms
+13:27:36.728 [restartedMain] INFO  o.s.b.w.s.ServletRegistrationBean - [addRegistration,186] - Servlet dispatcherServlet mapped to [*.action, /configuration/ui, /swagger-resources, /v2/api-docs, /configuration/security]
+13:27:36.729 [restartedMain] INFO  o.s.b.w.s.ServletRegistrationBean - [addRegistration,186] - Servlet dispatcherServlet mapped to [/]
+13:27:36.730 [restartedMain] INFO  o.s.b.w.s.RegistrationBean - [register,111] - Servlet dispatcherServlet was not registered (possibly already registered?)
+13:27:36.734 [restartedMain] INFO  o.s.b.w.s.FilterRegistrationBean - [configure,248] - Mapping filter: 'characterEncodingFilter' to: [/*]
+13:27:36.735 [restartedMain] INFO  o.s.b.w.s.FilterRegistrationBean - [configure,248] - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+13:27:36.735 [restartedMain] INFO  o.s.b.w.s.FilterRegistrationBean - [configure,248] - Mapping filter: 'formContentFilter' to: [/*]
+13:27:36.735 [restartedMain] INFO  o.s.b.w.s.FilterRegistrationBean - [configure,248] - Mapping filter: 'requestContextFilter' to: [/*]
+13:27:40.254 [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor - [initialize,171] - Initializing ExecutorService 'applicationTaskExecutor'
+13:27:40.479 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - [startServer,57] - LiveReload server is running on port 35729
+13:27:42.835 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - [onApplicationEvent,84] - Context refreshed
+13:27:42.854 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - [onApplicationEvent,87] - Found 1 custom documentation plugin(s)
+13:27:42.867 [restartedMain] INFO  s.d.s.w.s.ApiListingReferenceScanner - [scan,44] - Scanning for api listing references
+13:27:43.117 [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-8080"]
+13:27:43.147 [restartedMain] INFO  o.a.t.u.n.NioSelectorPool - [log,173] - Using a shared selector for servlet write/read
+13:27:43.187 [restartedMain] INFO  o.s.b.w.e.t.TomcatWebServer - [start,204] - Tomcat started on port(s): 8080 (http) with context path '/order'
+13:27:43.195 [restartedMain] INFO  c.t.o.OrderApplication - [logStarted,59] - Started OrderApplication in 11.579 seconds (JVM running for 13.38)
+13:28:10.247 [http-nio-8080-exec-1] INFO  o.a.t.u.h.p.Cookie - [log,173] - A cookie header was received [1554694546; Hm_lvt_3767979e7494107d90440379bed07921=1554285408,1554694546] that contained an invalid cookie. That cookie will be ignored.Note: further occurrences of this error will be logged at DEBUG level.
+13:28:10.256 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[.[.[/order] - [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+13:28:10.256 [http-nio-8080-exec-1] INFO  o.s.w.s.DispatcherServlet - [initServletBean,521] - Initializing Servlet 'dispatcherServlet'
+13:28:10.290 [http-nio-8080-exec-1] INFO  o.s.w.s.DispatcherServlet - [initServletBean,543] - Completed initialization in 33 ms
+13:28:56.047 [restartedMain] INFO  c.t.o.OrderApplication - [logStarting,50] - Starting OrderApplication on 8EL23LLFZAW1R87 with PID 9764 (E:\develop\idea_workspace\order\target\classes started by Administrator in E:\develop\idea_workspace\order)
+13:28:56.054 [restartedMain] INFO  c.t.o.OrderApplication - [logStartupProfileInfo,675] - No active profile set, falling back to default profiles: default
+13:28:56.156 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - [logTo,227] - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+13:28:56.157 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - [logTo,227] - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+13:28:57.869 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - [multipleStoresDetected,244] - Multiple Spring Data modules found, entering strict repository configuration mode!
+13:28:57.869 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - [registerRepositoriesIn,126] - Bootstrapping Spring Data repositories in DEFAULT mode.
+13:28:57.905 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - [registerRepositoriesIn,182] - Finished Spring Data repository scanning in 21ms. Found 0 repository interfaces.
+13:28:57.929 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - [multipleStoresDetected,244] - Multiple Spring Data modules found, entering strict repository configuration mode!
+13:28:57.931 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - [registerRepositoriesIn,126] - Bootstrapping Spring Data repositories in DEFAULT mode.
+13:28:57.956 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - [registerRepositoriesIn,182] - Finished Spring Data repository scanning in 7ms. Found 0 repository interfaces.
+13:28:58.696 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - [postProcessAfterInitialization,330] - Bean 'org.springframework.kafka.annotation.KafkaBootstrapConfiguration' of type [org.springframework.kafka.annotation.KafkaBootstrapConfiguration$$EnhancerBySpringCGLIB$$f55372dc] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+13:28:59.053 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - [postProcessAfterInitialization,330] - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$21a16159] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+13:29:00.283 [restartedMain] INFO  o.s.b.w.e.t.TomcatWebServer - [initialize,90] - Tomcat initialized with port(s): 8080 (http)
+13:29:00.301 [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-8080"]
+13:29:00.309 [restartedMain] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+13:29:00.310 [restartedMain] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet Engine: Apache Tomcat/9.0.12
+13:29:00.319 [restartedMain] INFO  o.a.c.c.AprLifecycleListener - [log,173] - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_201\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Java\jdk1.8.0_201\bin;E:\Program Files\Git\cmd;C:\Users\Administrator\AppData\Local\Microsoft\WindowsApps;.]
+13:29:00.472 [restartedMain] INFO  o.a.c.c.C.[.[.[/order] - [log,173] - Initializing Spring embedded WebApplicationContext
+13:29:00.472 [restartedMain] INFO  o.s.w.c.ContextLoader - [prepareWebApplicationContext,285] - Root WebApplicationContext: initialization completed in 4315 ms
+13:29:00.643 [restartedMain] INFO  o.s.b.w.s.ServletRegistrationBean - [addRegistration,186] - Servlet dispatcherServlet mapped to [*.action, /configuration/ui, /swagger-resources, /v2/api-docs, /configuration/security]
+13:29:00.646 [restartedMain] INFO  o.s.b.w.s.ServletRegistrationBean - [addRegistration,186] - Servlet dispatcherServlet mapped to [/]
+13:29:00.646 [restartedMain] INFO  o.s.b.w.s.RegistrationBean - [register,111] - Servlet dispatcherServlet was not registered (possibly already registered?)
+13:29:00.654 [restartedMain] INFO  o.s.b.w.s.FilterRegistrationBean - [configure,248] - Mapping filter: 'characterEncodingFilter' to: [/*]
+13:29:00.654 [restartedMain] INFO  o.s.b.w.s.FilterRegistrationBean - [configure,248] - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+13:29:00.655 [restartedMain] INFO  o.s.b.w.s.FilterRegistrationBean - [configure,248] - Mapping filter: 'formContentFilter' to: [/*]
+13:29:00.655 [restartedMain] INFO  o.s.b.w.s.FilterRegistrationBean - [configure,248] - Mapping filter: 'requestContextFilter' to: [/*]
+13:29:04.528 [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor - [initialize,171] - Initializing ExecutorService 'applicationTaskExecutor'
+13:29:04.763 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - [startServer,57] - LiveReload server is running on port 35729
+13:29:07.211 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - [onApplicationEvent,84] - Context refreshed
+13:29:07.233 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - [onApplicationEvent,87] - Found 1 custom documentation plugin(s)
+13:29:07.248 [restartedMain] INFO  s.d.s.w.s.ApiListingReferenceScanner - [scan,44] - Scanning for api listing references
+13:29:07.470 [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-8080"]
+13:29:07.485 [restartedMain] INFO  o.a.t.u.n.NioSelectorPool - [log,173] - Using a shared selector for servlet write/read
+13:29:07.511 [restartedMain] INFO  o.s.b.w.e.t.TomcatWebServer - [start,204] - Tomcat started on port(s): 8080 (http) with context path '/order'
+13:29:07.516 [restartedMain] INFO  c.t.o.OrderApplication - [logStarted,59] - Started OrderApplication in 12.146 seconds (JVM running for 16.088)
+13:29:11.211 [http-nio-8080-exec-3] INFO  o.a.t.u.h.p.Cookie - [log,173] - A cookie header was received [1554694546; Hm_lvt_3767979e7494107d90440379bed07921=1554285408,1554694546] that contained an invalid cookie. That cookie will be ignored.Note: further occurrences of this error will be logged at DEBUG level.
+13:29:11.221 [http-nio-8080-exec-3] INFO  o.a.c.c.C.[.[.[/order] - [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+13:29:11.222 [http-nio-8080-exec-3] INFO  o.s.w.s.DispatcherServlet - [initServletBean,521] - Initializing Servlet 'dispatcherServlet'
+13:29:11.257 [http-nio-8080-exec-3] INFO  o.s.w.s.DispatcherServlet - [initServletBean,543] - Completed initialization in 35 ms
+13:37:55.838 [restartedMain] INFO  c.t.o.OrderApplication - [logStarting,50] - Starting OrderApplication on 8EL23LLFZAW1R87 with PID 5876 (E:\develop\idea_workspace\order\target\classes started by Administrator in E:\develop\idea_workspace\order)
+13:37:55.844 [restartedMain] INFO  c.t.o.OrderApplication - [logStartupProfileInfo,675] - No active profile set, falling back to default profiles: default
+13:37:56.219 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - [logTo,227] - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+13:37:56.219 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - [logTo,227] - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+13:37:59.639 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - [multipleStoresDetected,244] - Multiple Spring Data modules found, entering strict repository configuration mode!
+13:37:59.640 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - [registerRepositoriesIn,126] - Bootstrapping Spring Data repositories in DEFAULT mode.
+13:37:59.690 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - [registerRepositoriesIn,182] - Finished Spring Data repository scanning in 28ms. Found 0 repository interfaces.
+13:37:59.752 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - [multipleStoresDetected,244] - Multiple Spring Data modules found, entering strict repository configuration mode!
+13:37:59.755 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - [registerRepositoriesIn,126] - Bootstrapping Spring Data repositories in DEFAULT mode.
+13:37:59.826 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - [registerRepositoriesIn,182] - Finished Spring Data repository scanning in 47ms. Found 0 repository interfaces.
+13:38:02.164 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - [postProcessAfterInitialization,330] - Bean 'org.springframework.kafka.annotation.KafkaBootstrapConfiguration' of type [org.springframework.kafka.annotation.KafkaBootstrapConfiguration$$EnhancerBySpringCGLIB$$9ddf1ffc] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+13:38:02.465 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - [postProcessAfterInitialization,330] - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$ca2d0e79] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+13:38:03.551 [restartedMain] INFO  o.s.b.w.e.t.TomcatWebServer - [initialize,90] - Tomcat initialized with port(s): 8080 (http)
+13:38:03.568 [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-8080"]
+13:38:03.574 [restartedMain] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+13:38:03.575 [restartedMain] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet Engine: Apache Tomcat/9.0.12
+13:38:03.582 [restartedMain] INFO  o.a.c.c.AprLifecycleListener - [log,173] - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_201\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Java\jdk1.8.0_201\bin;E:\Program Files\Git\cmd;C:\Users\Administrator\AppData\Local\Microsoft\WindowsApps;.]
+13:38:03.708 [restartedMain] INFO  o.a.c.c.C.[.[.[/order] - [log,173] - Initializing Spring embedded WebApplicationContext
+13:38:03.708 [restartedMain] INFO  o.s.w.c.ContextLoader - [prepareWebApplicationContext,285] - Root WebApplicationContext: initialization completed in 7488 ms
+13:38:03.841 [restartedMain] INFO  o.s.b.w.s.ServletRegistrationBean - [addRegistration,186] - Servlet dispatcherServlet mapped to [*.action, /configuration/ui, /swagger-resources, /v2/api-docs, /configuration/security]
+13:38:03.842 [restartedMain] INFO  o.s.b.w.s.ServletRegistrationBean - [addRegistration,186] - Servlet dispatcherServlet mapped to [/]
+13:38:03.843 [restartedMain] INFO  o.s.b.w.s.RegistrationBean - [register,111] - Servlet dispatcherServlet was not registered (possibly already registered?)
+13:38:03.847 [restartedMain] INFO  o.s.b.w.s.FilterRegistrationBean - [configure,248] - Mapping filter: 'characterEncodingFilter' to: [/*]
+13:38:03.848 [restartedMain] INFO  o.s.b.w.s.FilterRegistrationBean - [configure,248] - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+13:38:03.849 [restartedMain] INFO  o.s.b.w.s.FilterRegistrationBean - [configure,248] - Mapping filter: 'formContentFilter' to: [/*]
+13:38:03.849 [restartedMain] INFO  o.s.b.w.s.FilterRegistrationBean - [configure,248] - Mapping filter: 'requestContextFilter' to: [/*]
+13:38:08.150 [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor - [initialize,171] - Initializing ExecutorService 'applicationTaskExecutor'
+13:38:08.352 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - [startServer,57] - LiveReload server is running on port 35729
+13:38:11.169 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - [onApplicationEvent,84] - Context refreshed
+13:38:11.191 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - [onApplicationEvent,87] - Found 1 custom documentation plugin(s)
+13:38:11.204 [restartedMain] INFO  s.d.s.w.s.ApiListingReferenceScanner - [scan,44] - Scanning for api listing references
+13:38:11.373 [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-8080"]
+13:38:11.390 [restartedMain] INFO  o.a.t.u.n.NioSelectorPool - [log,173] - Using a shared selector for servlet write/read
+13:38:11.418 [restartedMain] INFO  o.s.b.w.e.t.TomcatWebServer - [start,204] - Tomcat started on port(s): 8080 (http) with context path '/order'
+13:38:11.425 [restartedMain] INFO  c.t.o.OrderApplication - [logStarted,59] - Started OrderApplication in 16.451 seconds (JVM running for 18.963)
+13:38:15.261 [http-nio-8080-exec-1] INFO  o.a.t.u.h.p.Cookie - [log,173] - A cookie header was received [1554694546; Hm_lvt_3767979e7494107d90440379bed07921=1554285408,1554694546] that contained an invalid cookie. That cookie will be ignored.Note: further occurrences of this error will be logged at DEBUG level.
+13:38:15.270 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[.[.[/order] - [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+13:38:15.270 [http-nio-8080-exec-1] INFO  o.s.w.s.DispatcherServlet - [initServletBean,521] - Initializing Servlet 'dispatcherServlet'
+13:38:15.304 [http-nio-8080-exec-1] INFO  o.s.w.s.DispatcherServlet - [initServletBean,543] - Completed initialization in 34 ms
+13:39:29.972 [restartedMain] INFO  c.t.o.OrderApplication - [logStarting,50] - Starting OrderApplication on 8EL23LLFZAW1R87 with PID 11944 (E:\develop\idea_workspace\order\target\classes started by Administrator in E:\develop\idea_workspace\order)
+13:39:29.978 [restartedMain] INFO  c.t.o.OrderApplication - [logStartupProfileInfo,675] - No active profile set, falling back to default profiles: default
+13:39:30.045 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - [logTo,227] - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+13:39:30.045 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - [logTo,227] - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+13:39:31.375 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - [multipleStoresDetected,244] - Multiple Spring Data modules found, entering strict repository configuration mode!
+13:39:31.376 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - [registerRepositoriesIn,126] - Bootstrapping Spring Data repositories in DEFAULT mode.
+13:39:31.404 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - [registerRepositoriesIn,182] - Finished Spring Data repository scanning in 15ms. Found 0 repository interfaces.
+13:39:31.420 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - [multipleStoresDetected,244] - Multiple Spring Data modules found, entering strict repository configuration mode!
+13:39:31.421 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - [registerRepositoriesIn,126] - Bootstrapping Spring Data repositories in DEFAULT mode.
+13:39:31.436 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - [registerRepositoriesIn,182] - Finished Spring Data repository scanning in 6ms. Found 0 repository interfaces.
+13:39:31.908 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - [postProcessAfterInitialization,330] - Bean 'org.springframework.kafka.annotation.KafkaBootstrapConfiguration' of type [org.springframework.kafka.annotation.KafkaBootstrapConfiguration$$EnhancerBySpringCGLIB$$670d7565] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+13:39:32.210 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - [postProcessAfterInitialization,330] - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$935b63e2] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+13:39:33.232 [restartedMain] INFO  o.s.b.w.e.t.TomcatWebServer - [initialize,90] - Tomcat initialized with port(s): 8080 (http)
+13:39:33.247 [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-8080"]
+13:39:33.253 [restartedMain] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+13:39:33.253 [restartedMain] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet Engine: Apache Tomcat/9.0.12
+13:39:33.261 [restartedMain] INFO  o.a.c.c.AprLifecycleListener - [log,173] - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_201\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Java\jdk1.8.0_201\bin;E:\Program Files\Git\cmd;C:\Users\Administrator\AppData\Local\Microsoft\WindowsApps;.]
+13:39:33.392 [restartedMain] INFO  o.a.c.c.C.[.[.[/order] - [log,173] - Initializing Spring embedded WebApplicationContext
+13:39:33.393 [restartedMain] INFO  o.s.w.c.ContextLoader - [prepareWebApplicationContext,285] - Root WebApplicationContext: initialization completed in 3347 ms
+13:39:33.510 [restartedMain] INFO  o.s.b.w.s.ServletRegistrationBean - [addRegistration,186] - Servlet dispatcherServlet mapped to [*.action, /configuration/ui, /swagger-resources, /v2/api-docs, /configuration/security]
+13:39:33.512 [restartedMain] INFO  o.s.b.w.s.ServletRegistrationBean - [addRegistration,186] - Servlet dispatcherServlet mapped to [/]
+13:39:33.512 [restartedMain] INFO  o.s.b.w.s.RegistrationBean - [register,111] - Servlet dispatcherServlet was not registered (possibly already registered?)
+13:39:33.517 [restartedMain] INFO  o.s.b.w.s.FilterRegistrationBean - [configure,248] - Mapping filter: 'characterEncodingFilter' to: [/*]
+13:39:33.517 [restartedMain] INFO  o.s.b.w.s.FilterRegistrationBean - [configure,248] - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+13:39:33.517 [restartedMain] INFO  o.s.b.w.s.FilterRegistrationBean - [configure,248] - Mapping filter: 'formContentFilter' to: [/*]
+13:39:33.517 [restartedMain] INFO  o.s.b.w.s.FilterRegistrationBean - [configure,248] - Mapping filter: 'requestContextFilter' to: [/*]
+13:39:37.507 [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor - [initialize,171] - Initializing ExecutorService 'applicationTaskExecutor'
+13:39:37.711 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - [startServer,57] - LiveReload server is running on port 35729
+13:39:39.770 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - [onApplicationEvent,84] - Context refreshed
+13:39:39.788 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - [onApplicationEvent,87] - Found 1 custom documentation plugin(s)
+13:39:39.804 [restartedMain] INFO  s.d.s.w.s.ApiListingReferenceScanner - [scan,44] - Scanning for api listing references
+13:39:39.969 [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-8080"]
+13:39:39.986 [restartedMain] INFO  o.a.t.u.n.NioSelectorPool - [log,173] - Using a shared selector for servlet write/read
+13:39:40.046 [restartedMain] INFO  o.s.b.w.e.t.TomcatWebServer - [start,204] - Tomcat started on port(s): 8080 (http) with context path '/order'
+13:39:40.050 [restartedMain] INFO  c.t.o.OrderApplication - [logStarted,59] - Started OrderApplication in 10.977 seconds (JVM running for 15.436)
+13:39:46.799 [http-nio-8080-exec-1] INFO  o.a.t.u.h.p.Cookie - [log,173] - A cookie header was received [1554694546; Hm_lvt_3767979e7494107d90440379bed07921=1554285408,1554694546] that contained an invalid cookie. That cookie will be ignored.Note: further occurrences of this error will be logged at DEBUG level.
+13:39:46.807 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[.[.[/order] - [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+13:39:46.808 [http-nio-8080-exec-1] INFO  o.s.w.s.DispatcherServlet - [initServletBean,521] - Initializing Servlet 'dispatcherServlet'
+13:39:46.840 [http-nio-8080-exec-1] INFO  o.s.w.s.DispatcherServlet - [initServletBean,543] - Completed initialization in 32 ms
+13:41:18.562 [restartedMain] INFO  c.t.o.OrderApplication - [logStarting,50] - Starting OrderApplication on 8EL23LLFZAW1R87 with PID 6296 (E:\develop\idea_workspace\order\target\classes started by Administrator in E:\develop\idea_workspace\order)
+13:41:18.571 [restartedMain] INFO  c.t.o.OrderApplication - [logStartupProfileInfo,675] - No active profile set, falling back to default profiles: default
+13:41:18.690 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - [logTo,227] - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+13:41:18.690 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - [logTo,227] - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+13:41:20.387 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - [multipleStoresDetected,244] - Multiple Spring Data modules found, entering strict repository configuration mode!
+13:41:20.388 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - [registerRepositoriesIn,126] - Bootstrapping Spring Data repositories in DEFAULT mode.
+13:41:20.417 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - [registerRepositoriesIn,182] - Finished Spring Data repository scanning in 18ms. Found 0 repository interfaces.
+13:41:20.438 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - [multipleStoresDetected,244] - Multiple Spring Data modules found, entering strict repository configuration mode!
+13:41:20.439 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - [registerRepositoriesIn,126] - Bootstrapping Spring Data repositories in DEFAULT mode.
+13:41:20.456 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - [registerRepositoriesIn,182] - Finished Spring Data repository scanning in 6ms. Found 0 repository interfaces.
+13:41:21.058 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - [postProcessAfterInitialization,330] - Bean 'org.springframework.kafka.annotation.KafkaBootstrapConfiguration' of type [org.springframework.kafka.annotation.KafkaBootstrapConfiguration$$EnhancerBySpringCGLIB$$4ca3ff24] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+13:41:21.406 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - [postProcessAfterInitialization,330] - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$78f1eda1] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+13:41:22.576 [restartedMain] INFO  o.s.b.w.e.t.TomcatWebServer - [initialize,90] - Tomcat initialized with port(s): 8080 (http)
+13:41:22.596 [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-8080"]
+13:41:22.603 [restartedMain] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+13:41:22.603 [restartedMain] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet Engine: Apache Tomcat/9.0.12
+13:41:22.613 [restartedMain] INFO  o.a.c.c.AprLifecycleListener - [log,173] - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_201\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Java\jdk1.8.0_201\bin;E:\Program Files\Git\cmd;C:\Users\Administrator\AppData\Local\Microsoft\WindowsApps;.]
+13:41:22.756 [restartedMain] INFO  o.a.c.c.C.[.[.[/order] - [log,173] - Initializing Spring embedded WebApplicationContext
+13:41:22.756 [restartedMain] INFO  o.s.w.c.ContextLoader - [prepareWebApplicationContext,285] - Root WebApplicationContext: initialization completed in 4065 ms
+13:41:22.893 [restartedMain] INFO  o.s.b.w.s.ServletRegistrationBean - [addRegistration,186] - Servlet dispatcherServlet mapped to [*.action, /configuration/ui, /swagger-resources, /v2/api-docs, /configuration/security]
+13:41:22.895 [restartedMain] INFO  o.s.b.w.s.ServletRegistrationBean - [addRegistration,186] - Servlet dispatcherServlet mapped to [/]
+13:41:22.895 [restartedMain] INFO  o.s.b.w.s.RegistrationBean - [register,111] - Servlet dispatcherServlet was not registered (possibly already registered?)
+13:41:22.901 [restartedMain] INFO  o.s.b.w.s.FilterRegistrationBean - [configure,248] - Mapping filter: 'characterEncodingFilter' to: [/*]
+13:41:22.901 [restartedMain] INFO  o.s.b.w.s.FilterRegistrationBean - [configure,248] - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+13:41:22.902 [restartedMain] INFO  o.s.b.w.s.FilterRegistrationBean - [configure,248] - Mapping filter: 'formContentFilter' to: [/*]
+13:41:22.902 [restartedMain] INFO  o.s.b.w.s.FilterRegistrationBean - [configure,248] - Mapping filter: 'requestContextFilter' to: [/*]
+13:41:26.668 [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor - [initialize,171] - Initializing ExecutorService 'applicationTaskExecutor'
+13:41:26.897 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - [startServer,57] - LiveReload server is running on port 35729
+13:41:29.556 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - [onApplicationEvent,84] - Context refreshed
+13:41:29.580 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - [onApplicationEvent,87] - Found 1 custom documentation plugin(s)
+13:41:29.596 [restartedMain] INFO  s.d.s.w.s.ApiListingReferenceScanner - [scan,44] - Scanning for api listing references
+13:41:29.820 [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-8080"]
+13:41:29.836 [restartedMain] INFO  o.a.t.u.n.NioSelectorPool - [log,173] - Using a shared selector for servlet write/read
+13:41:29.860 [restartedMain] INFO  o.s.b.w.e.t.TomcatWebServer - [start,204] - Tomcat started on port(s): 8080 (http) with context path '/order'
+13:41:29.866 [restartedMain] INFO  c.t.o.OrderApplication - [logStarted,59] - Started OrderApplication in 12.393 seconds (JVM running for 15.697)
+13:41:46.867 [http-nio-8080-exec-1] INFO  o.a.t.u.h.p.Cookie - [log,173] - A cookie header was received [1554694546; Hm_lvt_3767979e7494107d90440379bed07921=1554285408,1554694546] that contained an invalid cookie. That cookie will be ignored.Note: further occurrences of this error will be logged at DEBUG level.
+13:41:46.881 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[.[.[/order] - [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+13:41:46.881 [http-nio-8080-exec-1] INFO  o.s.w.s.DispatcherServlet - [initServletBean,521] - Initializing Servlet 'dispatcherServlet'
+13:41:46.922 [http-nio-8080-exec-1] INFO  o.s.w.s.DispatcherServlet - [initServletBean,543] - Completed initialization in 41 ms
+13:43:07.982 [restartedMain] INFO  c.t.o.OrderApplication - [logStarting,50] - Starting OrderApplication on 8EL23LLFZAW1R87 with PID 2084 (E:\develop\idea_workspace\order\target\classes started by Administrator in E:\develop\idea_workspace\order)
+13:43:07.994 [restartedMain] INFO  c.t.o.OrderApplication - [logStartupProfileInfo,675] - No active profile set, falling back to default profiles: default
+13:43:08.186 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - [logTo,227] - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+13:43:08.186 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - [logTo,227] - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+13:43:09.866 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - [multipleStoresDetected,244] - Multiple Spring Data modules found, entering strict repository configuration mode!
+13:43:09.866 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - [registerRepositoriesIn,126] - Bootstrapping Spring Data repositories in DEFAULT mode.
+13:43:09.893 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - [registerRepositoriesIn,182] - Finished Spring Data repository scanning in 18ms. Found 0 repository interfaces.
+13:43:09.913 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - [multipleStoresDetected,244] - Multiple Spring Data modules found, entering strict repository configuration mode!
+13:43:09.914 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - [registerRepositoriesIn,126] - Bootstrapping Spring Data repositories in DEFAULT mode.
+13:43:09.930 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - [registerRepositoriesIn,182] - Finished Spring Data repository scanning in 6ms. Found 0 repository interfaces.
+13:43:10.540 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - [postProcessAfterInitialization,330] - Bean 'org.springframework.kafka.annotation.KafkaBootstrapConfiguration' of type [org.springframework.kafka.annotation.KafkaBootstrapConfiguration$$EnhancerBySpringCGLIB$$9a72a62a] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+13:43:10.898 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - [postProcessAfterInitialization,330] - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$c6c094a7] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+13:43:12.123 [restartedMain] INFO  o.s.b.w.e.t.TomcatWebServer - [initialize,90] - Tomcat initialized with port(s): 8080 (http)
+13:43:12.144 [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-8080"]
+13:43:12.154 [restartedMain] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+13:43:12.155 [restartedMain] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet Engine: Apache Tomcat/9.0.12
+13:43:12.166 [restartedMain] INFO  o.a.c.c.AprLifecycleListener - [log,173] - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_201\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Java\jdk1.8.0_201\bin;E:\Program Files\Git\cmd;C:\Users\Administrator\AppData\Local\Microsoft\WindowsApps;.]
+13:43:12.331 [restartedMain] INFO  o.a.c.c.C.[.[.[/order] - [log,173] - Initializing Spring embedded WebApplicationContext
+13:43:12.331 [restartedMain] INFO  o.s.w.c.ContextLoader - [prepareWebApplicationContext,285] - Root WebApplicationContext: initialization completed in 4144 ms
+13:43:12.463 [restartedMain] INFO  o.s.b.w.s.ServletRegistrationBean - [addRegistration,186] - Servlet dispatcherServlet mapped to [*.action, /configuration/ui, /swagger-resources, /v2/api-docs, /configuration/security]
+13:43:12.465 [restartedMain] INFO  o.s.b.w.s.ServletRegistrationBean - [addRegistration,186] - Servlet dispatcherServlet mapped to [/]
+13:43:12.465 [restartedMain] INFO  o.s.b.w.s.RegistrationBean - [register,111] - Servlet dispatcherServlet was not registered (possibly already registered?)
+13:43:12.471 [restartedMain] INFO  o.s.b.w.s.FilterRegistrationBean - [configure,248] - Mapping filter: 'characterEncodingFilter' to: [/*]
+13:43:12.472 [restartedMain] INFO  o.s.b.w.s.FilterRegistrationBean - [configure,248] - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+13:43:12.472 [restartedMain] INFO  o.s.b.w.s.FilterRegistrationBean - [configure,248] - Mapping filter: 'formContentFilter' to: [/*]
+13:43:12.472 [restartedMain] INFO  o.s.b.w.s.FilterRegistrationBean - [configure,248] - Mapping filter: 'requestContextFilter' to: [/*]
+13:43:17.428 [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor - [initialize,171] - Initializing ExecutorService 'applicationTaskExecutor'
+13:43:17.658 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - [startServer,57] - LiveReload server is running on port 35729
+13:43:20.203 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - [onApplicationEvent,84] - Context refreshed
+13:43:20.226 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - [onApplicationEvent,87] - Found 1 custom documentation plugin(s)
+13:43:20.242 [restartedMain] INFO  s.d.s.w.s.ApiListingReferenceScanner - [scan,44] - Scanning for api listing references
+13:43:20.466 [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-8080"]
+13:43:20.482 [restartedMain] INFO  o.a.t.u.n.NioSelectorPool - [log,173] - Using a shared selector for servlet write/read
+13:43:20.508 [restartedMain] INFO  o.s.b.w.e.t.TomcatWebServer - [start,204] - Tomcat started on port(s): 8080 (http) with context path '/order'
+13:43:20.513 [restartedMain] INFO  c.t.o.OrderApplication - [logStarted,59] - Started OrderApplication in 13.66 seconds (JVM running for 16.318)
+13:43:29.803 [http-nio-8080-exec-2] INFO  o.a.t.u.h.p.Cookie - [log,173] - A cookie header was received [1554694546; Hm_lvt_3767979e7494107d90440379bed07921=1554285408,1554694546] that contained an invalid cookie. That cookie will be ignored.Note: further occurrences of this error will be logged at DEBUG level.
+13:43:29.813 [http-nio-8080-exec-2] INFO  o.a.c.c.C.[.[.[/order] - [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+13:43:29.814 [http-nio-8080-exec-2] INFO  o.s.w.s.DispatcherServlet - [initServletBean,521] - Initializing Servlet 'dispatcherServlet'
+13:43:29.850 [http-nio-8080-exec-2] INFO  o.s.w.s.DispatcherServlet - [initServletBean,543] - Completed initialization in 36 ms
+13:44:40.318 [restartedMain] INFO  c.t.o.OrderApplication - [logStarting,50] - Starting OrderApplication on 8EL23LLFZAW1R87 with PID 5488 (E:\develop\idea_workspace\order\target\classes started by Administrator in E:\develop\idea_workspace\order)
+13:44:40.332 [restartedMain] INFO  c.t.o.OrderApplication - [logStartupProfileInfo,675] - No active profile set, falling back to default profiles: default
+13:44:40.664 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - [logTo,227] - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+13:44:40.664 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - [logTo,227] - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+13:44:42.393 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - [multipleStoresDetected,244] - Multiple Spring Data modules found, entering strict repository configuration mode!
+13:44:42.393 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - [registerRepositoriesIn,126] - Bootstrapping Spring Data repositories in DEFAULT mode.
+13:44:42.421 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - [registerRepositoriesIn,182] - Finished Spring Data repository scanning in 16ms. Found 0 repository interfaces.
+13:44:42.441 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - [multipleStoresDetected,244] - Multiple Spring Data modules found, entering strict repository configuration mode!
+13:44:42.442 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - [registerRepositoriesIn,126] - Bootstrapping Spring Data repositories in DEFAULT mode.
+13:44:42.458 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - [registerRepositoriesIn,182] - Finished Spring Data repository scanning in 5ms. Found 0 repository interfaces.
+13:44:43.166 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - [postProcessAfterInitialization,330] - Bean 'org.springframework.kafka.annotation.KafkaBootstrapConfiguration' of type [org.springframework.kafka.annotation.KafkaBootstrapConfiguration$$EnhancerBySpringCGLIB$$1a896d9b] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+13:44:43.605 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - [postProcessAfterInitialization,330] - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$46d75c18] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+13:44:44.727 [restartedMain] INFO  o.s.b.w.e.t.TomcatWebServer - [initialize,90] - Tomcat initialized with port(s): 8080 (http)
+13:44:44.743 [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-8080"]
+13:44:44.751 [restartedMain] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+13:44:44.752 [restartedMain] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet Engine: Apache Tomcat/9.0.12
+13:44:44.760 [restartedMain] INFO  o.a.c.c.AprLifecycleListener - [log,173] - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_201\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Java\jdk1.8.0_201\bin;E:\Program Files\Git\cmd;C:\Users\Administrator\AppData\Local\Microsoft\WindowsApps;.]
+13:44:44.936 [restartedMain] INFO  o.a.c.c.C.[.[.[/order] - [log,173] - Initializing Spring embedded WebApplicationContext
+13:44:44.936 [restartedMain] INFO  o.s.w.c.ContextLoader - [prepareWebApplicationContext,285] - Root WebApplicationContext: initialization completed in 4271 ms
+13:44:45.067 [restartedMain] INFO  o.s.b.w.s.ServletRegistrationBean - [addRegistration,186] - Servlet dispatcherServlet mapped to [*.action, /configuration/ui, /swagger-resources, /v2/api-docs, /configuration/security]
+13:44:45.069 [restartedMain] INFO  o.s.b.w.s.ServletRegistrationBean - [addRegistration,186] - Servlet dispatcherServlet mapped to [/]
+13:44:45.070 [restartedMain] INFO  o.s.b.w.s.RegistrationBean - [register,111] - Servlet dispatcherServlet was not registered (possibly already registered?)
+13:44:45.076 [restartedMain] INFO  o.s.b.w.s.FilterRegistrationBean - [configure,248] - Mapping filter: 'characterEncodingFilter' to: [/*]
+13:44:45.076 [restartedMain] INFO  o.s.b.w.s.FilterRegistrationBean - [configure,248] - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+13:44:45.077 [restartedMain] INFO  o.s.b.w.s.FilterRegistrationBean - [configure,248] - Mapping filter: 'formContentFilter' to: [/*]
+13:44:45.077 [restartedMain] INFO  o.s.b.w.s.FilterRegistrationBean - [configure,248] - Mapping filter: 'requestContextFilter' to: [/*]
+13:44:49.023 [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor - [initialize,171] - Initializing ExecutorService 'applicationTaskExecutor'
+13:44:49.277 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - [startServer,57] - LiveReload server is running on port 35729
+13:44:52.053 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - [onApplicationEvent,84] - Context refreshed
+13:44:52.081 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - [onApplicationEvent,87] - Found 1 custom documentation plugin(s)
+13:44:52.105 [restartedMain] INFO  s.d.s.w.s.ApiListingReferenceScanner - [scan,44] - Scanning for api listing references
+13:44:52.400 [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-8080"]
+13:44:52.418 [restartedMain] INFO  o.a.t.u.n.NioSelectorPool - [log,173] - Using a shared selector for servlet write/read
+13:44:52.443 [restartedMain] INFO  o.s.b.w.e.t.TomcatWebServer - [start,204] - Tomcat started on port(s): 8080 (http) with context path '/order'
+13:44:52.448 [restartedMain] INFO  c.t.o.OrderApplication - [logStarted,59] - Started OrderApplication in 13.37 seconds (JVM running for 15.91)
+13:45:20.940 [http-nio-8080-exec-2] INFO  o.a.t.u.h.p.Cookie - [log,173] - A cookie header was received [1554694546; Hm_lvt_3767979e7494107d90440379bed07921=1554285408,1554694546] that contained an invalid cookie. That cookie will be ignored.Note: further occurrences of this error will be logged at DEBUG level.
+13:45:20.951 [http-nio-8080-exec-2] INFO  o.a.c.c.C.[.[.[/order] - [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+13:45:20.951 [http-nio-8080-exec-2] INFO  o.s.w.s.DispatcherServlet - [initServletBean,521] - Initializing Servlet 'dispatcherServlet'
+13:45:20.989 [http-nio-8080-exec-2] INFO  o.s.w.s.DispatcherServlet - [initServletBean,543] - Completed initialization in 38 ms
+13:45:21.025 [http-nio-8080-exec-2] INFO  c.t.o.c.LoggerAdvice$$EnhancerBySpringCGLIB$$88fe47b8 - [doBefore,45] - 地址URL : http://localhost:8080/order/url/name.action
+13:45:21.025 [http-nio-8080-exec-2] INFO  c.t.o.c.LoggerAdvice$$EnhancerBySpringCGLIB$$88fe47b8 - [doBefore,46] - 方法HTTP_METHOD : GET
+13:45:21.026 [http-nio-8080-exec-2] INFO  c.t.o.c.LoggerAdvice$$EnhancerBySpringCGLIB$$88fe47b8 - [doBefore,47] - IP : 0:0:0:0:0:0:0:1
+13:45:21.029 [http-nio-8080-exec-2] INFO  c.t.o.c.LoggerAdvice$$EnhancerBySpringCGLIB$$88fe47b8 - [doBefore,48] - 方法CLASS_METHOD : com.tz.order.controller.LoginController.webSocket
+13:45:21.029 [http-nio-8080-exec-2] INFO  c.t.o.c.LoggerAdvice$$EnhancerBySpringCGLIB$$88fe47b8 - [doBefore,49] - 参数ARGS : []
+13:45:21.034 [http-nio-8080-exec-2] INFO  c.t.o.c.LoggerAdvice$$EnhancerBySpringCGLIB$$88fe47b8 - [logCostTime,73] - 类class:com.tz.order.controller.LoginController 方法method:webSocket 耗时cost:10ms
+13:45:21.035 [http-nio-8080-exec-2] INFO  c.t.o.c.LoggerAdvice$$EnhancerBySpringCGLIB$$88fe47b8 - [doAfterReturning,66] - 返回结果RESPONSE : /login.html
+13:51:52.302 [restartedMain] INFO  c.t.o.OrderApplication - [logStarting,50] - Starting OrderApplication on 8EL23LLFZAW1R87 with PID 9436 (E:\develop\idea_workspace\order\target\classes started by Administrator in E:\develop\idea_workspace\order)
+13:51:52.312 [restartedMain] INFO  c.t.o.OrderApplication - [logStartupProfileInfo,675] - No active profile set, falling back to default profiles: default
+13:51:52.618 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - [logTo,227] - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+13:51:52.619 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - [logTo,227] - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+13:51:54.268 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - [multipleStoresDetected,244] - Multiple Spring Data modules found, entering strict repository configuration mode!
+13:51:54.269 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - [registerRepositoriesIn,126] - Bootstrapping Spring Data repositories in DEFAULT mode.
+13:51:54.295 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - [registerRepositoriesIn,182] - Finished Spring Data repository scanning in 16ms. Found 0 repository interfaces.
+13:51:54.314 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - [multipleStoresDetected,244] - Multiple Spring Data modules found, entering strict repository configuration mode!
+13:51:54.316 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - [registerRepositoriesIn,126] - Bootstrapping Spring Data repositories in DEFAULT mode.
+13:51:54.334 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - [registerRepositoriesIn,182] - Finished Spring Data repository scanning in 9ms. Found 0 repository interfaces.
+13:51:54.917 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - [postProcessAfterInitialization,330] - Bean 'org.springframework.kafka.annotation.KafkaBootstrapConfiguration' of type [org.springframework.kafka.annotation.KafkaBootstrapConfiguration$$EnhancerBySpringCGLIB$$40bffda9] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+13:51:55.260 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - [postProcessAfterInitialization,330] - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$6d0dec26] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+13:51:56.365 [restartedMain] INFO  o.s.b.w.e.t.TomcatWebServer - [initialize,90] - Tomcat initialized with port(s): 8080 (http)
+13:51:56.382 [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-8080"]
+13:51:56.389 [restartedMain] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+13:51:56.390 [restartedMain] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet Engine: Apache Tomcat/9.0.12
+13:51:56.399 [restartedMain] INFO  o.a.c.c.AprLifecycleListener - [log,173] - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_201\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Java\jdk1.8.0_201\bin;E:\Program Files\Git\cmd;C:\Users\Administrator\AppData\Local\Microsoft\WindowsApps;.]
+13:51:56.542 [restartedMain] INFO  o.a.c.c.C.[.[.[/order] - [log,173] - Initializing Spring embedded WebApplicationContext
+13:51:56.543 [restartedMain] INFO  o.s.w.c.ContextLoader - [prepareWebApplicationContext,285] - Root WebApplicationContext: initialization completed in 3924 ms
+13:51:56.682 [restartedMain] INFO  o.s.b.w.s.ServletRegistrationBean - [addRegistration,186] - Servlet dispatcherServlet mapped to [*.action, /configuration/ui, /swagger-resources, /v2/api-docs, /configuration/security]
+13:51:56.684 [restartedMain] INFO  o.s.b.w.s.ServletRegistrationBean - [addRegistration,186] - Servlet dispatcherServlet mapped to [/]
+13:51:56.685 [restartedMain] INFO  o.s.b.w.s.RegistrationBean - [register,111] - Servlet dispatcherServlet was not registered (possibly already registered?)
+13:51:56.694 [restartedMain] INFO  o.s.b.w.s.FilterRegistrationBean - [configure,248] - Mapping filter: 'characterEncodingFilter' to: [/*]
+13:51:56.695 [restartedMain] INFO  o.s.b.w.s.FilterRegistrationBean - [configure,248] - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+13:51:56.695 [restartedMain] INFO  o.s.b.w.s.FilterRegistrationBean - [configure,248] - Mapping filter: 'formContentFilter' to: [/*]
+13:51:56.695 [restartedMain] INFO  o.s.b.w.s.FilterRegistrationBean - [configure,248] - Mapping filter: 'requestContextFilter' to: [/*]
+13:52:00.438 [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor - [initialize,171] - Initializing ExecutorService 'applicationTaskExecutor'
+13:52:00.662 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - [startServer,57] - LiveReload server is running on port 35729
+13:52:03.310 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - [onApplicationEvent,84] - Context refreshed
+13:52:03.332 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - [onApplicationEvent,87] - Found 1 custom documentation plugin(s)
+13:52:03.346 [restartedMain] INFO  s.d.s.w.s.ApiListingReferenceScanner - [scan,44] - Scanning for api listing references
+13:52:03.598 [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-8080"]
+13:52:03.623 [restartedMain] INFO  o.a.t.u.n.NioSelectorPool - [log,173] - Using a shared selector for servlet write/read
+13:52:03.652 [restartedMain] INFO  o.s.b.w.e.t.TomcatWebServer - [start,204] - Tomcat started on port(s): 8080 (http) with context path '/order'
+13:52:03.658 [restartedMain] INFO  c.t.o.OrderApplication - [logStarted,59] - Started OrderApplication in 12.547 seconds (JVM running for 14.99)
+13:52:25.968 [http-nio-8080-exec-1] INFO  o.a.t.u.h.p.Cookie - [log,173] - A cookie header was received [1554694546; Hm_lvt_3767979e7494107d90440379bed07921=1554285408,1554694546] that contained an invalid cookie. That cookie will be ignored.Note: further occurrences of this error will be logged at DEBUG level.
+13:52:25.978 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[.[.[/order] - [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+13:52:25.978 [http-nio-8080-exec-1] INFO  o.s.w.s.DispatcherServlet - [initServletBean,521] - Initializing Servlet 'dispatcherServlet'
+13:52:26.016 [http-nio-8080-exec-1] INFO  o.s.w.s.DispatcherServlet - [initServletBean,543] - Completed initialization in 37 ms
+13:53:28.143 [restartedMain] INFO  c.t.o.OrderApplication - [logStarting,50] - Starting OrderApplication on 8EL23LLFZAW1R87 with PID 8088 (E:\develop\idea_workspace\order\target\classes started by Administrator in E:\develop\idea_workspace\order)
+13:53:28.151 [restartedMain] INFO  c.t.o.OrderApplication - [logStartupProfileInfo,675] - No active profile set, falling back to default profiles: default
+13:53:28.274 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - [logTo,227] - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+13:53:28.275 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - [logTo,227] - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+13:53:29.926 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - [multipleStoresDetected,244] - Multiple Spring Data modules found, entering strict repository configuration mode!
+13:53:29.927 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - [registerRepositoriesIn,126] - Bootstrapping Spring Data repositories in DEFAULT mode.
+13:53:29.954 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - [registerRepositoriesIn,182] - Finished Spring Data repository scanning in 16ms. Found 0 repository interfaces.
+13:53:29.974 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - [multipleStoresDetected,244] - Multiple Spring Data modules found, entering strict repository configuration mode!
+13:53:29.975 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - [registerRepositoriesIn,126] - Bootstrapping Spring Data repositories in DEFAULT mode.
+13:53:29.991 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - [registerRepositoriesIn,182] - Finished Spring Data repository scanning in 6ms. Found 0 repository interfaces.
+13:53:30.599 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - [postProcessAfterInitialization,330] - Bean 'org.springframework.kafka.annotation.KafkaBootstrapConfiguration' of type [org.springframework.kafka.annotation.KafkaBootstrapConfiguration$$EnhancerBySpringCGLIB$$daf1532] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+13:53:30.935 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - [postProcessAfterInitialization,330] - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$39fd03af] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+13:53:32.061 [restartedMain] INFO  o.s.b.w.e.t.TomcatWebServer - [initialize,90] - Tomcat initialized with port(s): 8080 (http)
+13:53:32.078 [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-8080"]
+13:53:32.087 [restartedMain] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+13:53:32.087 [restartedMain] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet Engine: Apache Tomcat/9.0.12
+13:53:32.096 [restartedMain] INFO  o.a.c.c.AprLifecycleListener - [log,173] - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_201\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Java\jdk1.8.0_201\bin;E:\Program Files\Git\cmd;C:\Users\Administrator\AppData\Local\Microsoft\WindowsApps;.]
+13:53:32.241 [restartedMain] INFO  o.a.c.c.C.[.[.[/order] - [log,173] - Initializing Spring embedded WebApplicationContext
+13:53:32.242 [restartedMain] INFO  o.s.w.c.ContextLoader - [prepareWebApplicationContext,285] - Root WebApplicationContext: initialization completed in 3967 ms
+13:53:32.372 [restartedMain] INFO  o.s.b.w.s.ServletRegistrationBean - [addRegistration,186] - Servlet dispatcherServlet mapped to [*.action, /configuration/ui, /swagger-resources, /v2/api-docs, /configuration/security]
+13:53:32.374 [restartedMain] INFO  o.s.b.w.s.ServletRegistrationBean - [addRegistration,186] - Servlet dispatcherServlet mapped to [/]
+13:53:32.374 [restartedMain] INFO  o.s.b.w.s.RegistrationBean - [register,111] - Servlet dispatcherServlet was not registered (possibly already registered?)
+13:53:32.381 [restartedMain] INFO  o.s.b.w.s.FilterRegistrationBean - [configure,248] - Mapping filter: 'characterEncodingFilter' to: [/*]
+13:53:32.382 [restartedMain] INFO  o.s.b.w.s.FilterRegistrationBean - [configure,248] - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+13:53:32.382 [restartedMain] INFO  o.s.b.w.s.FilterRegistrationBean - [configure,248] - Mapping filter: 'formContentFilter' to: [/*]
+13:53:32.382 [restartedMain] INFO  o.s.b.w.s.FilterRegistrationBean - [configure,248] - Mapping filter: 'requestContextFilter' to: [/*]
+13:53:36.312 [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor - [initialize,171] - Initializing ExecutorService 'applicationTaskExecutor'
+13:53:36.541 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - [startServer,57] - LiveReload server is running on port 35729
+13:53:39.167 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - [onApplicationEvent,84] - Context refreshed
+13:53:39.189 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - [onApplicationEvent,87] - Found 1 custom documentation plugin(s)
+13:53:39.205 [restartedMain] INFO  s.d.s.w.s.ApiListingReferenceScanner - [scan,44] - Scanning for api listing references
+13:53:39.465 [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-8080"]
+13:53:39.479 [restartedMain] INFO  o.a.t.u.n.NioSelectorPool - [log,173] - Using a shared selector for servlet write/read
+13:53:39.505 [restartedMain] INFO  o.s.b.w.e.t.TomcatWebServer - [start,204] - Tomcat started on port(s): 8080 (http) with context path '/order'
+13:53:39.510 [restartedMain] INFO  c.t.o.OrderApplication - [logStarted,59] - Started OrderApplication in 12.277 seconds (JVM running for 14.631)
+13:54:10.521 [http-nio-8080-exec-2] INFO  o.a.t.u.h.p.Cookie - [log,173] - A cookie header was received [1554694546; Hm_lvt_3767979e7494107d90440379bed07921=1554285408,1554694546] that contained an invalid cookie. That cookie will be ignored.Note: further occurrences of this error will be logged at DEBUG level.
+13:54:10.535 [http-nio-8080-exec-2] INFO  o.a.c.c.C.[.[.[/order] - [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+13:54:10.536 [http-nio-8080-exec-2] INFO  o.s.w.s.DispatcherServlet - [initServletBean,521] - Initializing Servlet 'dispatcherServlet'
+13:54:10.572 [http-nio-8080-exec-2] INFO  o.s.w.s.DispatcherServlet - [initServletBean,543] - Completed initialization in 36 ms
+13:55:13.473 [restartedMain] INFO  c.t.o.OrderApplication - [logStarting,50] - Starting OrderApplication on 8EL23LLFZAW1R87 with PID 5816 (E:\develop\idea_workspace\order\target\classes started by Administrator in E:\develop\idea_workspace\order)
+13:55:13.500 [restartedMain] INFO  c.t.o.OrderApplication - [logStartupProfileInfo,675] - No active profile set, falling back to default profiles: default
+13:55:13.653 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - [logTo,227] - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+13:55:13.653 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - [logTo,227] - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+13:55:16.731 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - [multipleStoresDetected,244] - Multiple Spring Data modules found, entering strict repository configuration mode!
+13:55:16.732 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - [registerRepositoriesIn,126] - Bootstrapping Spring Data repositories in DEFAULT mode.
+13:55:16.767 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - [registerRepositoriesIn,182] - Finished Spring Data repository scanning in 22ms. Found 0 repository interfaces.
+13:55:16.793 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - [multipleStoresDetected,244] - Multiple Spring Data modules found, entering strict repository configuration mode!
+13:55:16.795 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - [registerRepositoriesIn,126] - Bootstrapping Spring Data repositories in DEFAULT mode.
+13:55:16.817 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - [registerRepositoriesIn,182] - Finished Spring Data repository scanning in 7ms. Found 0 repository interfaces.
+13:55:17.444 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - [postProcessAfterInitialization,330] - Bean 'org.springframework.kafka.annotation.KafkaBootstrapConfiguration' of type [org.springframework.kafka.annotation.KafkaBootstrapConfiguration$$EnhancerBySpringCGLIB$$d567c1e6] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+13:55:17.779 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - [postProcessAfterInitialization,330] - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$1b5b063] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+13:55:18.948 [restartedMain] INFO  o.s.b.w.e.t.TomcatWebServer - [initialize,90] - Tomcat initialized with port(s): 8080 (http)
+13:55:18.971 [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-8080"]
+13:55:18.979 [restartedMain] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+13:55:18.980 [restartedMain] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet Engine: Apache Tomcat/9.0.12
+13:55:18.989 [restartedMain] INFO  o.a.c.c.AprLifecycleListener - [log,173] - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_201\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Java\jdk1.8.0_201\bin;E:\Program Files\Git\cmd;C:\Users\Administrator\AppData\Local\Microsoft\WindowsApps;.]
+13:55:19.142 [restartedMain] INFO  o.a.c.c.C.[.[.[/order] - [log,173] - Initializing Spring embedded WebApplicationContext
+13:55:19.143 [restartedMain] INFO  o.s.w.c.ContextLoader - [prepareWebApplicationContext,285] - Root WebApplicationContext: initialization completed in 5489 ms
+13:55:19.290 [restartedMain] INFO  o.s.b.w.s.ServletRegistrationBean - [addRegistration,186] - Servlet dispatcherServlet mapped to [*.action, /configuration/ui, /swagger-resources, /v2/api-docs, /configuration/security]
+13:55:19.292 [restartedMain] INFO  o.s.b.w.s.ServletRegistrationBean - [addRegistration,186] - Servlet dispatcherServlet mapped to [/]
+13:55:19.293 [restartedMain] INFO  o.s.b.w.s.RegistrationBean - [register,111] - Servlet dispatcherServlet was not registered (possibly already registered?)
+13:55:19.299 [restartedMain] INFO  o.s.b.w.s.FilterRegistrationBean - [configure,248] - Mapping filter: 'characterEncodingFilter' to: [/*]
+13:55:19.299 [restartedMain] INFO  o.s.b.w.s.FilterRegistrationBean - [configure,248] - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+13:55:19.299 [restartedMain] INFO  o.s.b.w.s.FilterRegistrationBean - [configure,248] - Mapping filter: 'formContentFilter' to: [/*]
+13:55:19.300 [restartedMain] INFO  o.s.b.w.s.FilterRegistrationBean - [configure,248] - Mapping filter: 'requestContextFilter' to: [/*]
+13:55:58.269 [restartedMain] INFO  c.t.o.OrderApplication - [logStarting,50] - Starting OrderApplication on 8EL23LLFZAW1R87 with PID 1424 (E:\develop\idea_workspace\order\target\classes started by Administrator in E:\develop\idea_workspace\order)
+13:55:58.277 [restartedMain] INFO  c.t.o.OrderApplication - [logStartupProfileInfo,675] - No active profile set, falling back to default profiles: default
+13:55:58.392 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - [logTo,227] - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+13:55:58.392 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - [logTo,227] - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+13:56:00.177 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - [multipleStoresDetected,244] - Multiple Spring Data modules found, entering strict repository configuration mode!
+13:56:00.178 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - [registerRepositoriesIn,126] - Bootstrapping Spring Data repositories in DEFAULT mode.
+13:56:00.206 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - [registerRepositoriesIn,182] - Finished Spring Data repository scanning in 17ms. Found 0 repository interfaces.
+13:56:00.225 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - [multipleStoresDetected,244] - Multiple Spring Data modules found, entering strict repository configuration mode!
+13:56:00.227 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - [registerRepositoriesIn,126] - Bootstrapping Spring Data repositories in DEFAULT mode.
+13:56:00.243 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - [registerRepositoriesIn,182] - Finished Spring Data repository scanning in 6ms. Found 0 repository interfaces.
+13:56:00.854 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - [postProcessAfterInitialization,330] - Bean 'org.springframework.kafka.annotation.KafkaBootstrapConfiguration' of type [org.springframework.kafka.annotation.KafkaBootstrapConfiguration$$EnhancerBySpringCGLIB$$395ad424] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+13:56:01.194 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - [postProcessAfterInitialization,330] - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$65a8c2a1] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+13:56:02.297 [restartedMain] INFO  o.s.b.w.e.t.TomcatWebServer - [initialize,90] - Tomcat initialized with port(s): 8080 (http)
+13:56:02.320 [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-8080"]
+13:56:02.327 [restartedMain] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+13:56:02.328 [restartedMain] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet Engine: Apache Tomcat/9.0.12
+13:56:02.337 [restartedMain] INFO  o.a.c.c.AprLifecycleListener - [log,173] - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_201\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Java\jdk1.8.0_201\bin;E:\Program Files\Git\cmd;C:\Users\Administrator\AppData\Local\Microsoft\WindowsApps;.]
+13:56:02.483 [restartedMain] INFO  o.a.c.c.C.[.[.[/order] - [log,173] - Initializing Spring embedded WebApplicationContext
+13:56:02.483 [restartedMain] INFO  o.s.w.c.ContextLoader - [prepareWebApplicationContext,285] - Root WebApplicationContext: initialization completed in 4090 ms
+13:56:02.624 [restartedMain] INFO  o.s.b.w.s.ServletRegistrationBean - [addRegistration,186] - Servlet dispatcherServlet mapped to [*.action, /configuration/ui, /swagger-resources, /v2/api-docs, /configuration/security]
+13:56:02.626 [restartedMain] INFO  o.s.b.w.s.ServletRegistrationBean - [addRegistration,186] - Servlet dispatcherServlet mapped to [/]
+13:56:02.626 [restartedMain] INFO  o.s.b.w.s.RegistrationBean - [register,111] - Servlet dispatcherServlet was not registered (possibly already registered?)
+13:56:02.632 [restartedMain] INFO  o.s.b.w.s.FilterRegistrationBean - [configure,248] - Mapping filter: 'characterEncodingFilter' to: [/*]
+13:56:02.633 [restartedMain] INFO  o.s.b.w.s.FilterRegistrationBean - [configure,248] - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+13:56:02.633 [restartedMain] INFO  o.s.b.w.s.FilterRegistrationBean - [configure,248] - Mapping filter: 'formContentFilter' to: [/*]
+13:56:02.634 [restartedMain] INFO  o.s.b.w.s.FilterRegistrationBean - [configure,248] - Mapping filter: 'requestContextFilter' to: [/*]
+13:56:06.398 [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor - [initialize,171] - Initializing ExecutorService 'applicationTaskExecutor'
+13:56:06.622 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - [startServer,57] - LiveReload server is running on port 35729
+13:56:08.978 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - [onApplicationEvent,84] - Context refreshed
+13:56:08.999 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - [onApplicationEvent,87] - Found 1 custom documentation plugin(s)
+13:56:09.013 [restartedMain] INFO  s.d.s.w.s.ApiListingReferenceScanner - [scan,44] - Scanning for api listing references
+13:56:09.236 [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-8080"]
+13:56:09.252 [restartedMain] INFO  o.a.t.u.n.NioSelectorPool - [log,173] - Using a shared selector for servlet write/read
+13:56:09.279 [restartedMain] INFO  o.s.b.w.e.t.TomcatWebServer - [start,204] - Tomcat started on port(s): 8080 (http) with context path '/order'
+13:56:09.284 [restartedMain] INFO  c.t.o.OrderApplication - [logStarted,59] - Started OrderApplication in 12.012 seconds (JVM running for 14.288)
+13:56:14.430 [http-nio-8080-exec-2] INFO  o.a.t.u.h.p.Cookie - [log,173] - A cookie header was received [1554694546; Hm_lvt_3767979e7494107d90440379bed07921=1554285408,1554694546] that contained an invalid cookie. That cookie will be ignored.Note: further occurrences of this error will be logged at DEBUG level.
+13:56:14.441 [http-nio-8080-exec-2] INFO  o.a.c.c.C.[.[.[/order] - [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+13:56:14.441 [http-nio-8080-exec-2] INFO  o.s.w.s.DispatcherServlet - [initServletBean,521] - Initializing Servlet 'dispatcherServlet'
+13:56:14.477 [http-nio-8080-exec-2] INFO  o.s.w.s.DispatcherServlet - [initServletBean,543] - Completed initialization in 36 ms
+13:57:17.459 [restartedMain] INFO  c.t.o.OrderApplication - [logStarting,50] - Starting OrderApplication on 8EL23LLFZAW1R87 with PID 7160 (E:\develop\idea_workspace\order\target\classes started by Administrator in E:\develop\idea_workspace\order)
+13:57:17.474 [restartedMain] INFO  c.t.o.OrderApplication - [logStartupProfileInfo,675] - No active profile set, falling back to default profiles: default
+13:57:17.638 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - [logTo,227] - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+13:57:17.720 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - [logTo,227] - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+13:57:19.461 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - [multipleStoresDetected,244] - Multiple Spring Data modules found, entering strict repository configuration mode!
+13:57:19.462 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - [registerRepositoriesIn,126] - Bootstrapping Spring Data repositories in DEFAULT mode.
+13:57:19.489 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - [registerRepositoriesIn,182] - Finished Spring Data repository scanning in 17ms. Found 0 repository interfaces.
+13:57:19.509 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - [multipleStoresDetected,244] - Multiple Spring Data modules found, entering strict repository configuration mode!
+13:57:19.510 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - [registerRepositoriesIn,126] - Bootstrapping Spring Data repositories in DEFAULT mode.
+13:57:19.527 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - [registerRepositoriesIn,182] - Finished Spring Data repository scanning in 7ms. Found 0 repository interfaces.
+13:57:20.126 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - [postProcessAfterInitialization,330] - Bean 'org.springframework.kafka.annotation.KafkaBootstrapConfiguration' of type [org.springframework.kafka.annotation.KafkaBootstrapConfiguration$$EnhancerBySpringCGLIB$$5b2f4ec] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+13:57:20.480 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - [postProcessAfterInitialization,330] - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$3200e369] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+13:57:21.594 [restartedMain] INFO  o.s.b.w.e.t.TomcatWebServer - [initialize,90] - Tomcat initialized with port(s): 8080 (http)
+13:57:21.610 [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-8080"]
+13:57:21.617 [restartedMain] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+13:57:21.618 [restartedMain] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet Engine: Apache Tomcat/9.0.12
+13:57:21.627 [restartedMain] INFO  o.a.c.c.AprLifecycleListener - [log,173] - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_201\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Java\jdk1.8.0_201\bin;E:\Program Files\Git\cmd;C:\Users\Administrator\AppData\Local\Microsoft\WindowsApps;.]
+13:57:21.774 [restartedMain] INFO  o.a.c.c.C.[.[.[/order] - [log,173] - Initializing Spring embedded WebApplicationContext
+13:57:21.775 [restartedMain] INFO  o.s.w.c.ContextLoader - [prepareWebApplicationContext,285] - Root WebApplicationContext: initialization completed in 4055 ms
+13:57:21.905 [restartedMain] INFO  o.s.b.w.s.ServletRegistrationBean - [addRegistration,186] - Servlet dispatcherServlet mapped to [*.action, /configuration/ui, /swagger-resources, /v2/api-docs, /configuration/security]
+13:57:21.907 [restartedMain] INFO  o.s.b.w.s.ServletRegistrationBean - [addRegistration,186] - Servlet dispatcherServlet mapped to [/]
+13:57:21.907 [restartedMain] INFO  o.s.b.w.s.RegistrationBean - [register,111] - Servlet dispatcherServlet was not registered (possibly already registered?)
+13:57:21.914 [restartedMain] INFO  o.s.b.w.s.FilterRegistrationBean - [configure,248] - Mapping filter: 'characterEncodingFilter' to: [/*]
+13:57:21.914 [restartedMain] INFO  o.s.b.w.s.FilterRegistrationBean - [configure,248] - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+13:57:21.915 [restartedMain] INFO  o.s.b.w.s.FilterRegistrationBean - [configure,248] - Mapping filter: 'formContentFilter' to: [/*]
+13:57:21.915 [restartedMain] INFO  o.s.b.w.s.FilterRegistrationBean - [configure,248] - Mapping filter: 'requestContextFilter' to: [/*]
+13:57:25.973 [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor - [initialize,171] - Initializing ExecutorService 'applicationTaskExecutor'
+13:57:26.267 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - [startServer,57] - LiveReload server is running on port 35729
+13:57:28.742 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - [onApplicationEvent,84] - Context refreshed
+13:57:28.766 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - [onApplicationEvent,87] - Found 1 custom documentation plugin(s)
+13:57:28.781 [restartedMain] INFO  s.d.s.w.s.ApiListingReferenceScanner - [scan,44] - Scanning for api listing references
+13:57:29.328 [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-8080"]
+13:57:29.346 [restartedMain] INFO  o.a.t.u.n.NioSelectorPool - [log,173] - Using a shared selector for servlet write/read
+13:57:29.372 [restartedMain] INFO  o.s.b.w.e.t.TomcatWebServer - [start,204] - Tomcat started on port(s): 8080 (http) with context path '/order'
+13:57:29.377 [restartedMain] INFO  c.t.o.OrderApplication - [logStarted,59] - Started OrderApplication in 13.099 seconds (JVM running for 15.346)
+13:57:37.566 [http-nio-8080-exec-2] INFO  o.a.t.u.h.p.Cookie - [log,173] - A cookie header was received [1554694546; Hm_lvt_3767979e7494107d90440379bed07921=1554285408,1554694546] that contained an invalid cookie. That cookie will be ignored.Note: further occurrences of this error will be logged at DEBUG level.
+13:57:37.576 [http-nio-8080-exec-2] INFO  o.a.c.c.C.[.[.[/order] - [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+13:57:37.577 [http-nio-8080-exec-2] INFO  o.s.w.s.DispatcherServlet - [initServletBean,521] - Initializing Servlet 'dispatcherServlet'
+13:57:37.614 [http-nio-8080-exec-2] INFO  o.s.w.s.DispatcherServlet - [initServletBean,543] - Completed initialization in 37 ms
+14:00:41.617 [restartedMain] INFO  c.t.o.OrderApplication - [logStarting,50] - Starting OrderApplication on 8EL23LLFZAW1R87 with PID 9912 (E:\develop\idea_workspace\order\target\classes started by Administrator in E:\develop\idea_workspace\order)
+14:00:41.631 [restartedMain] INFO  c.t.o.OrderApplication - [logStartupProfileInfo,675] - No active profile set, falling back to default profiles: default
+14:00:41.902 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - [logTo,227] - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+14:00:41.904 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - [logTo,227] - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+14:00:43.670 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - [multipleStoresDetected,244] - Multiple Spring Data modules found, entering strict repository configuration mode!
+14:00:43.670 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - [registerRepositoriesIn,126] - Bootstrapping Spring Data repositories in DEFAULT mode.
+14:00:43.700 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - [registerRepositoriesIn,182] - Finished Spring Data repository scanning in 18ms. Found 0 repository interfaces.
+14:00:43.719 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - [multipleStoresDetected,244] - Multiple Spring Data modules found, entering strict repository configuration mode!
+14:00:43.721 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - [registerRepositoriesIn,126] - Bootstrapping Spring Data repositories in DEFAULT mode.
+14:00:43.737 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - [registerRepositoriesIn,182] - Finished Spring Data repository scanning in 6ms. Found 0 repository interfaces.
+14:00:44.485 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - [postProcessAfterInitialization,330] - Bean 'org.springframework.kafka.annotation.KafkaBootstrapConfiguration' of type [org.springframework.kafka.annotation.KafkaBootstrapConfiguration$$EnhancerBySpringCGLIB$$3739d97c] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+14:00:44.883 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - [postProcessAfterInitialization,330] - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$6387c7f9] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+14:00:46.037 [restartedMain] INFO  o.s.b.w.e.t.TomcatWebServer - [initialize,90] - Tomcat initialized with port(s): 8080 (http)
+14:00:46.053 [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-8080"]
+14:00:46.060 [restartedMain] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+14:00:46.061 [restartedMain] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet Engine: Apache Tomcat/9.0.12
+14:00:46.070 [restartedMain] INFO  o.a.c.c.AprLifecycleListener - [log,173] - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_201\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Java\jdk1.8.0_201\bin;E:\Program Files\Git\cmd;C:\Users\Administrator\AppData\Local\Microsoft\WindowsApps;.]
+14:00:46.216 [restartedMain] INFO  o.a.c.c.C.[.[.[/order] - [log,173] - Initializing Spring embedded WebApplicationContext
+14:00:46.216 [restartedMain] INFO  o.s.w.c.ContextLoader - [prepareWebApplicationContext,285] - Root WebApplicationContext: initialization completed in 4311 ms
+14:00:46.341 [restartedMain] INFO  o.s.b.w.s.ServletRegistrationBean - [addRegistration,186] - Servlet dispatcherServlet mapped to [*.action, /configuration/ui, /swagger-resources, /v2/api-docs, /configuration/security]
+14:00:46.343 [restartedMain] INFO  o.s.b.w.s.ServletRegistrationBean - [addRegistration,186] - Servlet dispatcherServlet mapped to [/]
+14:00:46.344 [restartedMain] INFO  o.s.b.w.s.RegistrationBean - [register,111] - Servlet dispatcherServlet was not registered (possibly already registered?)
+14:00:46.350 [restartedMain] INFO  o.s.b.w.s.FilterRegistrationBean - [configure,248] - Mapping filter: 'characterEncodingFilter' to: [/*]
+14:00:46.350 [restartedMain] INFO  o.s.b.w.s.FilterRegistrationBean - [configure,248] - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+14:00:46.351 [restartedMain] INFO  o.s.b.w.s.FilterRegistrationBean - [configure,248] - Mapping filter: 'formContentFilter' to: [/*]
+14:00:46.351 [restartedMain] INFO  o.s.b.w.s.FilterRegistrationBean - [configure,248] - Mapping filter: 'requestContextFilter' to: [/*]
+14:00:50.223 [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor - [initialize,171] - Initializing ExecutorService 'applicationTaskExecutor'
+14:00:50.448 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - [startServer,57] - LiveReload server is running on port 35729
+14:00:53.151 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - [onApplicationEvent,84] - Context refreshed
+14:00:53.173 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - [onApplicationEvent,87] - Found 1 custom documentation plugin(s)
+14:00:53.189 [restartedMain] INFO  s.d.s.w.s.ApiListingReferenceScanner - [scan,44] - Scanning for api listing references
+14:00:53.438 [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-8080"]
+14:00:53.468 [restartedMain] INFO  o.a.t.u.n.NioSelectorPool - [log,173] - Using a shared selector for servlet write/read
+14:00:53.499 [restartedMain] INFO  o.s.b.w.e.t.TomcatWebServer - [start,204] - Tomcat started on port(s): 8080 (http) with context path '/order'
+14:00:53.506 [restartedMain] INFO  c.t.o.OrderApplication - [logStarted,59] - Started OrderApplication in 13.134 seconds (JVM running for 15.519)
+14:04:15.341 [http-nio-8080-exec-1] INFO  o.a.t.u.h.p.Cookie - [log,173] - A cookie header was received [1554694546; Hm_lvt_3767979e7494107d90440379bed07921=1554285408,1554694546] that contained an invalid cookie. That cookie will be ignored.Note: further occurrences of this error will be logged at DEBUG level.
+14:04:15.353 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[.[.[/order] - [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+14:04:15.353 [http-nio-8080-exec-1] INFO  o.s.w.s.DispatcherServlet - [initServletBean,521] - Initializing Servlet 'dispatcherServlet'
+14:04:15.392 [http-nio-8080-exec-1] INFO  o.s.w.s.DispatcherServlet - [initServletBean,543] - Completed initialization in 39 ms
+14:05:20.976 [restartedMain] INFO  c.t.o.OrderApplication - [logStarting,50] - Starting OrderApplication on 8EL23LLFZAW1R87 with PID 9856 (E:\develop\idea_workspace\order\target\classes started by Administrator in E:\develop\idea_workspace\order)
+14:05:20.983 [restartedMain] INFO  c.t.o.OrderApplication - [logStartupProfileInfo,675] - No active profile set, falling back to default profiles: default
+14:05:21.064 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - [logTo,227] - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+14:05:21.064 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - [logTo,227] - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+14:05:22.631 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - [multipleStoresDetected,244] - Multiple Spring Data modules found, entering strict repository configuration mode!
+14:05:22.631 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - [registerRepositoriesIn,126] - Bootstrapping Spring Data repositories in DEFAULT mode.
+14:05:22.653 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - [registerRepositoriesIn,182] - Finished Spring Data repository scanning in 14ms. Found 0 repository interfaces.
+14:05:22.668 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - [multipleStoresDetected,244] - Multiple Spring Data modules found, entering strict repository configuration mode!
+14:05:22.669 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - [registerRepositoriesIn,126] - Bootstrapping Spring Data repositories in DEFAULT mode.
+14:05:22.683 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - [registerRepositoriesIn,182] - Finished Spring Data repository scanning in 6ms. Found 0 repository interfaces.
+14:05:23.141 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - [postProcessAfterInitialization,330] - Bean 'org.springframework.kafka.annotation.KafkaBootstrapConfiguration' of type [org.springframework.kafka.annotation.KafkaBootstrapConfiguration$$EnhancerBySpringCGLIB$$709d77e8] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+14:05:23.413 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - [postProcessAfterInitialization,330] - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$9ceb6665] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+14:05:24.375 [restartedMain] INFO  o.s.b.w.e.t.TomcatWebServer - [initialize,90] - Tomcat initialized with port(s): 8080 (http)
+14:05:24.388 [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-8080"]
+14:05:24.394 [restartedMain] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+14:05:24.394 [restartedMain] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet Engine: Apache Tomcat/9.0.12
+14:05:24.402 [restartedMain] INFO  o.a.c.c.AprLifecycleListener - [log,173] - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_201\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Java\jdk1.8.0_201\bin;E:\Program Files\Git\cmd;C:\Users\Administrator\AppData\Local\Microsoft\WindowsApps;.]
+14:05:24.526 [restartedMain] INFO  o.a.c.c.C.[.[.[/order] - [log,173] - Initializing Spring embedded WebApplicationContext
+14:05:24.527 [restartedMain] INFO  o.s.w.c.ContextLoader - [prepareWebApplicationContext,285] - Root WebApplicationContext: initialization completed in 3462 ms
+14:05:24.643 [restartedMain] INFO  o.s.b.w.s.ServletRegistrationBean - [addRegistration,186] - Servlet dispatcherServlet mapped to [*.action, /configuration/ui, /swagger-resources, /v2/api-docs, /configuration/security]
+14:05:24.644 [restartedMain] INFO  o.s.b.w.s.ServletRegistrationBean - [addRegistration,186] - Servlet dispatcherServlet mapped to [/]
+14:05:24.645 [restartedMain] INFO  o.s.b.w.s.RegistrationBean - [register,111] - Servlet dispatcherServlet was not registered (possibly already registered?)
+14:05:24.649 [restartedMain] INFO  o.s.b.w.s.FilterRegistrationBean - [configure,248] - Mapping filter: 'characterEncodingFilter' to: [/*]
+14:05:24.650 [restartedMain] INFO  o.s.b.w.s.FilterRegistrationBean - [configure,248] - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+14:05:24.650 [restartedMain] INFO  o.s.b.w.s.FilterRegistrationBean - [configure,248] - Mapping filter: 'formContentFilter' to: [/*]
+14:05:24.651 [restartedMain] INFO  o.s.b.w.s.FilterRegistrationBean - [configure,248] - Mapping filter: 'requestContextFilter' to: [/*]
+14:05:28.258 [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor - [initialize,171] - Initializing ExecutorService 'applicationTaskExecutor'
+14:05:28.456 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - [startServer,57] - LiveReload server is running on port 35729
+14:05:30.535 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - [onApplicationEvent,84] - Context refreshed
+14:05:30.550 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - [onApplicationEvent,87] - Found 1 custom documentation plugin(s)
+14:05:30.561 [restartedMain] INFO  s.d.s.w.s.ApiListingReferenceScanner - [scan,44] - Scanning for api listing references
+14:05:30.739 [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-8080"]
+14:05:30.754 [restartedMain] INFO  o.a.t.u.n.NioSelectorPool - [log,173] - Using a shared selector for servlet write/read
+14:05:30.773 [restartedMain] INFO  o.s.b.w.e.t.TomcatWebServer - [start,204] - Tomcat started on port(s): 8080 (http) with context path '/order'
+14:05:30.777 [restartedMain] INFO  c.t.o.OrderApplication - [logStarted,59] - Started OrderApplication in 10.808 seconds (JVM running for 12.818)
+14:06:05.927 [http-nio-8080-exec-1] INFO  o.a.t.u.h.p.Cookie - [log,173] - A cookie header was received [1554694546; Hm_lvt_3767979e7494107d90440379bed07921=1554285408,1554694546] that contained an invalid cookie. That cookie will be ignored.Note: further occurrences of this error will be logged at DEBUG level.
+14:06:05.935 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[.[.[/order] - [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+14:06:05.936 [http-nio-8080-exec-1] INFO  o.s.w.s.DispatcherServlet - [initServletBean,521] - Initializing Servlet 'dispatcherServlet'
+14:06:05.972 [http-nio-8080-exec-1] INFO  o.s.w.s.DispatcherServlet - [initServletBean,543] - Completed initialization in 36 ms
+14:09:22.825 [restartedMain] INFO  c.t.o.OrderApplication - [logStarting,50] - Starting OrderApplication on 8EL23LLFZAW1R87 with PID 9228 (E:\develop\idea_workspace\order\target\classes started by Administrator in E:\develop\idea_workspace\order)
+14:09:22.832 [restartedMain] INFO  c.t.o.OrderApplication - [logStartupProfileInfo,675] - No active profile set, falling back to default profiles: default
+14:09:22.958 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - [logTo,227] - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+14:09:22.959 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - [logTo,227] - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+14:09:24.638 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - [multipleStoresDetected,244] - Multiple Spring Data modules found, entering strict repository configuration mode!
+14:09:24.638 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - [registerRepositoriesIn,126] - Bootstrapping Spring Data repositories in DEFAULT mode.
+14:09:24.669 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - [registerRepositoriesIn,182] - Finished Spring Data repository scanning in 18ms. Found 0 repository interfaces.
+14:09:24.688 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - [multipleStoresDetected,244] - Multiple Spring Data modules found, entering strict repository configuration mode!
+14:09:24.689 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - [registerRepositoriesIn,126] - Bootstrapping Spring Data repositories in DEFAULT mode.
+14:09:24.706 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - [registerRepositoriesIn,182] - Finished Spring Data repository scanning in 6ms. Found 0 repository interfaces.
+14:09:25.322 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - [postProcessAfterInitialization,330] - Bean 'org.springframework.kafka.annotation.KafkaBootstrapConfiguration' of type [org.springframework.kafka.annotation.KafkaBootstrapConfiguration$$EnhancerBySpringCGLIB$$1f5ae537] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+14:09:25.676 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - [postProcessAfterInitialization,330] - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$4ba8d3b4] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+14:09:26.872 [restartedMain] INFO  o.s.b.w.e.t.TomcatWebServer - [initialize,90] - Tomcat initialized with port(s): 8080 (http)
+14:09:26.900 [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-8080"]
+14:09:26.910 [restartedMain] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+14:09:26.910 [restartedMain] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet Engine: Apache Tomcat/9.0.12
+14:09:26.923 [restartedMain] INFO  o.a.c.c.AprLifecycleListener - [log,173] - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_201\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Java\jdk1.8.0_201\bin;E:\Program Files\Git\cmd;C:\Users\Administrator\AppData\Local\Microsoft\WindowsApps;.]
+14:09:27.252 [restartedMain] INFO  o.a.c.c.C.[.[.[/order] - [log,173] - Initializing Spring embedded WebApplicationContext
+14:09:27.253 [restartedMain] INFO  o.s.w.c.ContextLoader - [prepareWebApplicationContext,285] - Root WebApplicationContext: initialization completed in 4291 ms
+14:09:27.446 [restartedMain] INFO  o.s.b.w.s.ServletRegistrationBean - [addRegistration,186] - Servlet dispatcherServlet mapped to [*.action, /configuration/ui, /swagger-resources, /v2/api-docs, /configuration/security]
+14:09:27.449 [restartedMain] INFO  o.s.b.w.s.ServletRegistrationBean - [addRegistration,186] - Servlet dispatcherServlet mapped to [/]
+14:09:27.449 [restartedMain] INFO  o.s.b.w.s.RegistrationBean - [register,111] - Servlet dispatcherServlet was not registered (possibly already registered?)
+14:09:27.457 [restartedMain] INFO  o.s.b.w.s.FilterRegistrationBean - [configure,248] - Mapping filter: 'characterEncodingFilter' to: [/*]
+14:09:27.459 [restartedMain] INFO  o.s.b.w.s.FilterRegistrationBean - [configure,248] - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+14:09:27.460 [restartedMain] INFO  o.s.b.w.s.FilterRegistrationBean - [configure,248] - Mapping filter: 'formContentFilter' to: [/*]
+14:09:27.460 [restartedMain] INFO  o.s.b.w.s.FilterRegistrationBean - [configure,248] - Mapping filter: 'requestContextFilter' to: [/*]
+14:09:31.278 [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor - [initialize,171] - Initializing ExecutorService 'applicationTaskExecutor'
+14:09:31.502 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - [startServer,57] - LiveReload server is running on port 35729
+14:09:34.067 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - [onApplicationEvent,84] - Context refreshed
+14:09:34.089 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - [onApplicationEvent,87] - Found 1 custom documentation plugin(s)
+14:09:34.103 [restartedMain] INFO  s.d.s.w.s.ApiListingReferenceScanner - [scan,44] - Scanning for api listing references
+14:09:34.321 [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-8080"]
+14:09:34.338 [restartedMain] INFO  o.a.t.u.n.NioSelectorPool - [log,173] - Using a shared selector for servlet write/read
+14:09:34.362 [restartedMain] INFO  o.s.b.w.e.t.TomcatWebServer - [start,204] - Tomcat started on port(s): 8080 (http) with context path '/order'
+14:09:34.367 [restartedMain] INFO  c.t.o.OrderApplication - [logStarted,59] - Started OrderApplication in 12.52 seconds (JVM running for 15.345)
+14:09:48.028 [http-nio-8080-exec-3] INFO  o.a.t.u.h.p.Cookie - [log,173] - A cookie header was received [1554694546; Hm_lvt_3767979e7494107d90440379bed07921=1554285408,1554694546] that contained an invalid cookie. That cookie will be ignored.Note: further occurrences of this error will be logged at DEBUG level.
+14:09:48.046 [http-nio-8080-exec-3] INFO  o.a.c.c.C.[.[.[/order] - [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+14:09:48.046 [http-nio-8080-exec-3] INFO  o.s.w.s.DispatcherServlet - [initServletBean,521] - Initializing Servlet 'dispatcherServlet'
+14:09:48.098 [http-nio-8080-exec-3] INFO  o.s.w.s.DispatcherServlet - [initServletBean,543] - Completed initialization in 52 ms
+14:12:05.521 [restartedMain] INFO  c.t.o.OrderApplication - [logStarting,50] - Starting OrderApplication on 8EL23LLFZAW1R87 with PID 2792 (E:\develop\idea_workspace\order\target\classes started by Administrator in E:\develop\idea_workspace\order)
+14:12:05.528 [restartedMain] INFO  c.t.o.OrderApplication - [logStartupProfileInfo,675] - No active profile set, falling back to default profiles: default
+14:12:05.656 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - [logTo,227] - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+14:12:05.657 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - [logTo,227] - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+14:12:07.531 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - [multipleStoresDetected,244] - Multiple Spring Data modules found, entering strict repository configuration mode!
+14:12:07.531 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - [registerRepositoriesIn,126] - Bootstrapping Spring Data repositories in DEFAULT mode.
+14:12:07.560 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - [registerRepositoriesIn,182] - Finished Spring Data repository scanning in 18ms. Found 0 repository interfaces.
+14:12:07.579 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - [multipleStoresDetected,244] - Multiple Spring Data modules found, entering strict repository configuration mode!
+14:12:07.580 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - [registerRepositoriesIn,126] - Bootstrapping Spring Data repositories in DEFAULT mode.
+14:12:07.596 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - [registerRepositoriesIn,182] - Finished Spring Data repository scanning in 6ms. Found 0 repository interfaces.
+14:12:08.304 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - [postProcessAfterInitialization,330] - Bean 'org.springframework.kafka.annotation.KafkaBootstrapConfiguration' of type [org.springframework.kafka.annotation.KafkaBootstrapConfiguration$$EnhancerBySpringCGLIB$$80ba4788] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+14:12:08.689 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - [postProcessAfterInitialization,330] - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$ad083605] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+14:12:09.978 [restartedMain] INFO  o.s.b.w.e.t.TomcatWebServer - [initialize,90] - Tomcat initialized with port(s): 8080 (http)
+14:12:09.995 [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-8080"]
+14:12:10.002 [restartedMain] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+14:12:10.002 [restartedMain] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet Engine: Apache Tomcat/9.0.12
+14:12:10.011 [restartedMain] INFO  o.a.c.c.AprLifecycleListener - [log,173] - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_201\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Java\jdk1.8.0_201\bin;E:\Program Files\Git\cmd;C:\Users\Administrator\AppData\Local\Microsoft\WindowsApps;.]
+14:12:10.154 [restartedMain] INFO  o.a.c.c.C.[.[.[/order] - [log,173] - Initializing Spring embedded WebApplicationContext
+14:12:10.155 [restartedMain] INFO  o.s.w.c.ContextLoader - [prepareWebApplicationContext,285] - Root WebApplicationContext: initialization completed in 4496 ms
+14:12:10.292 [restartedMain] INFO  o.s.b.w.s.ServletRegistrationBean - [addRegistration,186] - Servlet dispatcherServlet mapped to [*.action, /configuration/ui, /swagger-resources, /v2/api-docs, /configuration/security]
+14:12:10.295 [restartedMain] INFO  o.s.b.w.s.ServletRegistrationBean - [addRegistration,186] - Servlet dispatcherServlet mapped to [/]
+14:12:10.295 [restartedMain] INFO  o.s.b.w.s.RegistrationBean - [register,111] - Servlet dispatcherServlet was not registered (possibly already registered?)
+14:12:10.302 [restartedMain] INFO  o.s.b.w.s.FilterRegistrationBean - [configure,248] - Mapping filter: 'characterEncodingFilter' to: [/*]
+14:12:10.303 [restartedMain] INFO  o.s.b.w.s.FilterRegistrationBean - [configure,248] - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+14:12:10.303 [restartedMain] INFO  o.s.b.w.s.FilterRegistrationBean - [configure,248] - Mapping filter: 'formContentFilter' to: [/*]
+14:12:10.304 [restartedMain] INFO  o.s.b.w.s.FilterRegistrationBean - [configure,248] - Mapping filter: 'requestContextFilter' to: [/*]
+14:12:14.424 [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor - [initialize,171] - Initializing ExecutorService 'applicationTaskExecutor'
+14:12:14.649 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - [startServer,57] - LiveReload server is running on port 35729
+14:12:17.136 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - [onApplicationEvent,84] - Context refreshed
+14:12:17.158 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - [onApplicationEvent,87] - Found 1 custom documentation plugin(s)
+14:12:17.172 [restartedMain] INFO  s.d.s.w.s.ApiListingReferenceScanner - [scan,44] - Scanning for api listing references
+14:12:17.389 [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-8080"]
+14:12:17.406 [restartedMain] INFO  o.a.t.u.n.NioSelectorPool - [log,173] - Using a shared selector for servlet write/read
+14:12:17.431 [restartedMain] INFO  o.s.b.w.e.t.TomcatWebServer - [start,204] - Tomcat started on port(s): 8080 (http) with context path '/order'
+14:12:17.436 [restartedMain] INFO  c.t.o.OrderApplication - [logStarted,59] - Started OrderApplication in 12.943 seconds (JVM running for 15.507)
+14:12:42.028 [http-nio-8080-exec-2] INFO  o.a.t.u.h.p.Cookie - [log,173] - A cookie header was received [1554694546; Hm_lvt_3767979e7494107d90440379bed07921=1554285408,1554694546] that contained an invalid cookie. That cookie will be ignored.Note: further occurrences of this error will be logged at DEBUG level.
+14:21:21.161 [restartedMain] INFO  c.t.o.OrderApplication - [logStarting,50] - Starting OrderApplication on 8EL23LLFZAW1R87 with PID 9696 (E:\develop\idea_workspace\order\target\classes started by Administrator in E:\develop\idea_workspace\order)
+14:21:21.169 [restartedMain] INFO  c.t.o.OrderApplication - [logStartupProfileInfo,675] - No active profile set, falling back to default profiles: default
+14:21:21.462 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - [logTo,227] - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+14:21:21.463 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - [logTo,227] - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+14:21:24.509 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - [multipleStoresDetected,244] - Multiple Spring Data modules found, entering strict repository configuration mode!
+14:21:24.510 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - [registerRepositoriesIn,126] - Bootstrapping Spring Data repositories in DEFAULT mode.
+14:21:24.541 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - [registerRepositoriesIn,182] - Finished Spring Data repository scanning in 17ms. Found 0 repository interfaces.
+14:21:24.561 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - [multipleStoresDetected,244] - Multiple Spring Data modules found, entering strict repository configuration mode!
+14:21:24.562 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - [registerRepositoriesIn,126] - Bootstrapping Spring Data repositories in DEFAULT mode.
+14:21:24.580 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - [registerRepositoriesIn,182] - Finished Spring Data repository scanning in 8ms. Found 0 repository interfaces.
+14:21:25.136 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - [postProcessAfterInitialization,330] - Bean 'org.springframework.kafka.annotation.KafkaBootstrapConfiguration' of type [org.springframework.kafka.annotation.KafkaBootstrapConfiguration$$EnhancerBySpringCGLIB$$77e395e] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+14:21:25.439 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - [postProcessAfterInitialization,330] - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$33cc27db] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+14:21:27.233 [restartedMain] INFO  o.s.b.w.e.t.TomcatWebServer - [initialize,90] - Tomcat initialized with port(s): 8080 (http)
+14:21:27.251 [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-8080"]
+14:21:27.261 [restartedMain] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+14:21:27.262 [restartedMain] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet Engine: Apache Tomcat/9.0.12
+14:21:27.275 [restartedMain] INFO  o.a.c.c.AprLifecycleListener - [log,173] - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_201\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Java\jdk1.8.0_201\bin;E:\Program Files\Git\cmd;C:\Users\Administrator\AppData\Local\Microsoft\WindowsApps;.]
+14:21:27.458 [restartedMain] INFO  o.a.c.c.C.[.[.[/order] - [log,173] - Initializing Spring embedded WebApplicationContext
+14:21:27.458 [restartedMain] INFO  o.s.w.c.ContextLoader - [prepareWebApplicationContext,285] - Root WebApplicationContext: initialization completed in 5995 ms
+14:21:27.568 [restartedMain] INFO  o.s.b.w.s.ServletRegistrationBean - [addRegistration,186] - Servlet dispatcherServlet mapped to [*.action, /configuration/ui, /swagger-resources, /v2/api-docs, /configuration/security]
+14:21:27.569 [restartedMain] INFO  o.s.b.w.s.ServletRegistrationBean - [addRegistration,186] - Servlet dispatcherServlet mapped to [/]
+14:21:27.569 [restartedMain] INFO  o.s.b.w.s.RegistrationBean - [register,111] - Servlet dispatcherServlet was not registered (possibly already registered?)
+14:21:27.574 [restartedMain] INFO  o.s.b.w.s.FilterRegistrationBean - [configure,248] - Mapping filter: 'characterEncodingFilter' to: [/*]
+14:21:27.574 [restartedMain] INFO  o.s.b.w.s.FilterRegistrationBean - [configure,248] - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+14:21:27.575 [restartedMain] INFO  o.s.b.w.s.FilterRegistrationBean - [configure,248] - Mapping filter: 'formContentFilter' to: [/*]
+14:21:27.575 [restartedMain] INFO  o.s.b.w.s.FilterRegistrationBean - [configure,248] - Mapping filter: 'requestContextFilter' to: [/*]
+14:21:30.983 [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor - [initialize,171] - Initializing ExecutorService 'applicationTaskExecutor'
+14:21:31.190 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - [startServer,57] - LiveReload server is running on port 35729
+14:21:33.593 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - [onApplicationEvent,84] - Context refreshed
+14:21:33.609 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - [onApplicationEvent,87] - Found 1 custom documentation plugin(s)
+14:21:33.620 [restartedMain] INFO  s.d.s.w.s.ApiListingReferenceScanner - [scan,44] - Scanning for api listing references
+14:21:33.787 [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-8080"]
+14:21:33.801 [restartedMain] INFO  o.a.t.u.n.NioSelectorPool - [log,173] - Using a shared selector for servlet write/read
+14:21:33.820 [restartedMain] INFO  o.s.b.w.e.t.TomcatWebServer - [start,204] - Tomcat started on port(s): 8080 (http) with context path '/order'
+14:21:33.825 [restartedMain] INFO  c.t.o.OrderApplication - [logStarted,59] - Started OrderApplication in 13.61 seconds (JVM running for 15.491)
+14:22:04.401 [http-nio-8080-exec-1] INFO  o.a.t.u.h.p.Cookie - [log,173] - A cookie header was received [1554694546; Hm_lvt_3767979e7494107d90440379bed07921=1554285408,1554694546] that contained an invalid cookie. That cookie will be ignored.Note: further occurrences of this error will be logged at DEBUG level.

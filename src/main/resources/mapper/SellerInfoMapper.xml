@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.tz.order.dao.SellerInfoMapper" >
+  <resultMap id="BaseResultMap" type="com.tz.order.domain.SellerInfo" >
+    <result column="id" property="id" jdbcType="INTEGER" />
+    <result column="name" property="name" jdbcType="VARCHAR" />
+    <result column="desc" property="desc" jdbcType="VARCHAR" />
+    <result column="delivery_time" property="deliveryTime" jdbcType="VARCHAR" />
+    <result column="score" property="score" jdbcType="DOUBLE" />
+    <result column="service_score" property="serviceScore" jdbcType="DOUBLE" />
+    <result column="food_score" property="foodScore" jdbcType="DOUBLE" />
+    <result column="rank_rate" property="rankRate" jdbcType="DOUBLE" />
+    <result column="min_price" property="minPrice" jdbcType="DOUBLE" />
+    <result column="delivery_price" property="deliveryPrice" jdbcType="DOUBLE" />
+    <result column="rating_count" property="ratingCount" jdbcType="INTEGER" />
+    <result column="sell_count" property="sellCount" jdbcType="INTEGER" />
+    <result column="bulletin" property="bulletin" jdbcType="VARCHAR" />
+    <result column="supports" property="supports" jdbcType="VARCHAR" />
+    <result column="avatar" property="avatar" jdbcType="VARCHAR" />
+    <result column="pics" property="pics" jdbcType="VARCHAR" />
+    <result column="infos" property="infos" jdbcType="VARCHAR" />
+  </resultMap>
+  <insert id="insert" parameterType="com.tz.order.domain.SellerInfo" >
+    insert into seller_info (id, name, desc, 
+      delivery_time, score, service_score, 
+      food_score, rank_rate, min_price, 
+      delivery_price, rating_count, sell_count, 
+      bulletin, supports, avatar, 
+      pics, infos)
+    values (#{id,jdbcType=INTEGER}, #{name,jdbcType=VARCHAR}, #{desc,jdbcType=VARCHAR}, 
+      #{deliveryTime,jdbcType=VARCHAR}, #{score,jdbcType=DOUBLE}, #{serviceScore,jdbcType=DOUBLE}, 
+      #{foodScore,jdbcType=DOUBLE}, #{rankRate,jdbcType=DOUBLE}, #{minPrice,jdbcType=DOUBLE}, 
+      #{deliveryPrice,jdbcType=DOUBLE}, #{ratingCount,jdbcType=INTEGER}, #{sellCount,jdbcType=INTEGER}, 
+      #{bulletin,jdbcType=VARCHAR}, #{supports,jdbcType=VARCHAR}, #{avatar,jdbcType=VARCHAR}, 
+      #{pics,jdbcType=VARCHAR}, #{infos,jdbcType=VARCHAR})
+  </insert>
+  <insert id="insertSelective" parameterType="com.tz.order.domain.SellerInfo" >
+    insert into seller_info
+    <trim prefix="(" suffix=")" suffixOverrides="," >
+      <if test="id != null" >
+        id,
+      </if>
+      <if test="name != null" >
+        name,
+      </if>
+      <if test="desc != null" >
+        desc,
+      </if>
+      <if test="deliveryTime != null" >
+        delivery_time,
+      </if>
+      <if test="score != null" >
+        score,
+      </if>
+      <if test="serviceScore != null" >
+        service_score,
+      </if>
+      <if test="foodScore != null" >
+        food_score,
+      </if>
+      <if test="rankRate != null" >
+        rank_rate,
+      </if>
+      <if test="minPrice != null" >
+        min_price,
+      </if>
+      <if test="deliveryPrice != null" >
+        delivery_price,
+      </if>
+      <if test="ratingCount != null" >
+        rating_count,
+      </if>
+      <if test="sellCount != null" >
+        sell_count,
+      </if>
+      <if test="bulletin != null" >
+        bulletin,
+      </if>
+      <if test="supports != null" >
+        supports,
+      </if>
+      <if test="avatar != null" >
+        avatar,
+      </if>
+      <if test="pics != null" >
+        pics,
+      </if>
+      <if test="infos != null" >
+        infos,
+      </if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides="," >
+      <if test="id != null" >
+        #{id,jdbcType=INTEGER},
+      </if>
+      <if test="name != null" >
+        #{name,jdbcType=VARCHAR},
+      </if>
+      <if test="desc != null" >
+        #{desc,jdbcType=VARCHAR},
+      </if>
+      <if test="deliveryTime != null" >
+        #{deliveryTime,jdbcType=VARCHAR},
+      </if>
+      <if test="score != null" >
+        #{score,jdbcType=DOUBLE},
+      </if>
+      <if test="serviceScore != null" >
+        #{serviceScore,jdbcType=DOUBLE},
+      </if>
+      <if test="foodScore != null" >
+        #{foodScore,jdbcType=DOUBLE},
+      </if>
+      <if test="rankRate != null" >
+        #{rankRate,jdbcType=DOUBLE},
+      </if>
+      <if test="minPrice != null" >
+        #{minPrice,jdbcType=DOUBLE},
+      </if>
+      <if test="deliveryPrice != null" >
+        #{deliveryPrice,jdbcType=DOUBLE},
+      </if>
+      <if test="ratingCount != null" >
+        #{ratingCount,jdbcType=INTEGER},
+      </if>
+      <if test="sellCount != null" >
+        #{sellCount,jdbcType=INTEGER},
+      </if>
+      <if test="bulletin != null" >
+        #{bulletin,jdbcType=VARCHAR},
+      </if>
+      <if test="supports != null" >
+        #{supports,jdbcType=VARCHAR},
+      </if>
+      <if test="avatar != null" >
+        #{avatar,jdbcType=VARCHAR},
+      </if>
+      <if test="pics != null" >
+        #{pics,jdbcType=VARCHAR},
+      </if>
+      <if test="infos != null" >
+        #{infos,jdbcType=VARCHAR},
+      </if>
+    </trim>
+  </insert>
+</mapper>

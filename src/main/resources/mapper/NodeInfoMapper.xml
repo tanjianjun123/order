@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.tz.order.dao.NodeInfoMapper" >
+  <resultMap id="BaseResultMap" type="com.tz.order.domain.Node" >
+    <result column="id" property="id" jdbcType="INTEGER" />
+    <result column="name" property="name" jdbcType="VARCHAR" />
+    <result column="key" property="key" jdbcType="VARCHAR" />
+    <result column="type" property="type" jdbcType="VARCHAR" />
+    <result column="left" property="left" jdbcType="INTEGER" />
+    <result column="top" property="top" jdbcType="INTEGER" />
+    <result column="width" property="width" jdbcType="INTEGER" />
+    <result column="height" property="height" jdbcType="INTEGER" />
+    <result column="activiti_id" property="activitiId" jdbcType="INTEGER" />
+  </resultMap>
+  <insert id="insert" parameterType="com.tz.order.domain.Node" >
+    insert into node_info (id, `key`, `name`,`type`, `left`, `top`,`width`,`height`,`activiti_id`)
+    values (#{id,jdbcType=INTEGER}, #{key,jdbcType=VARCHAR}, #{name,jdbcType=VARCHAR},
+      #{type,jdbcType=VARCHAR}, #{left,jdbcType=INTEGER}, #{top,jdbcType=INTEGER},
+      #{width,jdbcType=INTEGER}, #{height,jdbcType=INTEGER}, #{activitiId,jdbcType=INTEGER})
+  </insert>
+
+  <select id="queryList" resultMap="BaseResultMap">
+      select * from node_info
+  </select>
+
+  <update id="update" parameterType="com.tz.order.domain.Node">
+    update node_info
+    <set>
+      <if test="name != null">`name`=#{name},</if>
+    </set>
+    where id=#{id}
+  </update>
+</mapper>

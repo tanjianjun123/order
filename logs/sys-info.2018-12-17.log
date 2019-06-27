@@ -1,0 +1,144 @@
+16:51:47.659 [restartedMain] INFO  c.t.o.OrderApplication - [logStarting,50] - Starting OrderApplication on DESKTOP-81PJ15A with PID 1756 (D:\idea_space\order\target\classes started by ThinkPad in D:\idea_space\order)
+16:51:47.755 [restartedMain] INFO  c.t.o.OrderApplication - [logStartupProfileInfo,675] - No active profile set, falling back to default profiles: default
+16:51:48.450 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - [logTo,227] - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+16:51:48.451 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - [logTo,227] - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+16:51:58.065 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - [multipleStoresDetected,244] - Multiple Spring Data modules found, entering strict repository configuration mode!
+16:51:58.066 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - [registerRepositoriesIn,126] - Bootstrapping Spring Data repositories in DEFAULT mode.
+16:51:58.256 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - [registerRepositoriesIn,182] - Finished Spring Data repository scanning in 61ms. Found 0 repository interfaces.
+16:51:58.501 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - [multipleStoresDetected,244] - Multiple Spring Data modules found, entering strict repository configuration mode!
+16:51:58.506 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - [registerRepositoriesIn,126] - Bootstrapping Spring Data repositories in DEFAULT mode.
+16:51:58.665 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - [registerRepositoriesIn,182] - Finished Spring Data repository scanning in 24ms. Found 0 repository interfaces.
+16:52:05.792 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - [postProcessAfterInitialization,330] - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$94f74c12] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+16:52:13.802 [restartedMain] INFO  o.s.b.w.e.t.TomcatWebServer - [initialize,90] - Tomcat initialized with port(s): 8080 (http)
+16:52:13.930 [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-8080"]
+16:52:13.964 [restartedMain] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+16:52:13.965 [restartedMain] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet Engine: Apache Tomcat/9.0.12
+16:52:14.033 [restartedMain] INFO  o.a.c.c.AprLifecycleListener - [log,173] - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_131\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Java\jdk1.8.0_131\bin;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\MySQL\MySQL Server 5.5\bin;D:\maven\apache-maven-3.3.9-bin\apache-maven-3.3.9\bin;D:\Program Files (x86)\Git\cmd;D:\Program Files\Process Lasso;D:\Program Files\nodejs\;C:\Users\ThinkPad\AppData\Roaming\npm;;C:\WINDOWS\System32\OpenSSH\;C:\Users\ThinkPad\AppData\Local\Microsoft\WindowsApps;D:\Program Files\Microsoft VS Code\bin;C:\Users\ThinkPad\AppData\Roaming\npm;;.]
+16:52:15.145 [restartedMain] INFO  o.a.c.c.C.[.[.[/order] - [log,173] - Initializing Spring embedded WebApplicationContext
+16:52:15.146 [restartedMain] INFO  o.s.w.c.ContextLoader - [prepareWebApplicationContext,285] - Root WebApplicationContext: initialization completed in 26682 ms
+16:52:15.581 [restartedMain] INFO  o.s.b.w.s.ServletRegistrationBean - [addRegistration,186] - Servlet dispatcherServlet mapped to [*.action, /configuration/ui, /swagger-resources, /v2/api-docs, /configuration/security]
+16:52:15.641 [restartedMain] INFO  o.s.b.w.s.ServletRegistrationBean - [addRegistration,186] - Servlet dispatcherServlet mapped to [/]
+16:52:15.642 [restartedMain] INFO  o.s.b.w.s.RegistrationBean - [register,111] - Servlet dispatcherServlet was not registered (possibly already registered?)
+16:52:15.672 [restartedMain] INFO  o.s.b.w.s.FilterRegistrationBean - [configure,248] - Mapping filter: 'characterEncodingFilter' to: [/*]
+16:52:15.673 [restartedMain] INFO  o.s.b.w.s.FilterRegistrationBean - [configure,248] - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+16:52:15.674 [restartedMain] INFO  o.s.b.w.s.FilterRegistrationBean - [configure,248] - Mapping filter: 'formContentFilter' to: [/*]
+16:52:15.675 [restartedMain] INFO  o.s.b.w.s.FilterRegistrationBean - [configure,248] - Mapping filter: 'requestContextFilter' to: [/*]
+16:52:17.162 [restartedMain] INFO  c.a.d.p.DruidDataSource - [init,922] - {dataSource-1} inited
+16:52:19.318 [restartedMain] INFO  o.h.j.i.u.LogHelper - [logPersistenceUnitInformation,31] - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+16:52:19.580 [restartedMain] INFO  o.hibernate.Version - [logVersion,46] - HHH000412: Hibernate Core {5.3.7.Final}
+16:52:19.585 [restartedMain] INFO  o.h.cfg.Environment - [<clinit>,213] - HHH000206: hibernate.properties not found
+16:52:20.183 [restartedMain] INFO  o.h.a.common.Version - [<clinit>,49] - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+16:52:20.742 [restartedMain] INFO  o.h.dialect.Dialect - [<init>,157] - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+16:52:21.742 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - [buildNativeEntityManagerFactory,415] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+16:52:21.956 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - [startServer,57] - LiveReload server is running on port 35729
+16:52:27.060 [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor - [initialize,171] - Initializing ExecutorService 'applicationTaskExecutor'
+16:52:28.175 [restartedMain] INFO  n.o.j.J2CacheConfig - [getConfigStream,80] - Load J2Cache Config File : [/j2cache.properties].
+16:52:28.184 [restartedMain] INFO  n.o.j.u.SerializationUtils - [init,60] - Using Serializer -> [fst:net.oschina.j2cache.util.FSTSerializer]
+16:52:28.194 [restartedMain] INFO  n.o.j.CacheProviderHolder - [init,52] - Using L1 CacheProvider : net.oschina.j2cache.caffeine.CaffeineProvider
+16:52:28.241 [restartedMain] INFO  n.o.j.r.RedisCacheProvider - [start,81] - Redis client starts with mode(single),db(0),storage(generic),namespace(),time(42ms)
+16:52:28.242 [restartedMain] INFO  n.o.j.CacheProviderHolder - [init,58] - Using L2 CacheProvider : net.oschina.j2cache.redis.RedisCacheProvider
+16:52:29.319 [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor - [shutdown,208] - Shutting down ExecutorService 'applicationTaskExecutor'
+16:52:29.438 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - [destroy,597] - Closing JPA EntityManagerFactory for persistence unit 'default'
+16:52:29.459 [restartedMain] INFO  c.a.d.p.DruidDataSource - [close,1817] - {dataSource-1} closed
+16:52:29.463 [restartedMain] INFO  o.a.c.c.StandardService - [log,173] - Stopping service [Tomcat]
+16:52:29.506 [restartedMain] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - [logMessage,142] - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+16:53:26.826 [restartedMain] INFO  c.t.o.OrderApplication - [logStarting,50] - Starting OrderApplication on DESKTOP-81PJ15A with PID 12308 (D:\idea_space\order\target\classes started by ThinkPad in D:\idea_space\order)
+16:53:26.841 [restartedMain] INFO  c.t.o.OrderApplication - [logStartupProfileInfo,675] - No active profile set, falling back to default profiles: default
+16:53:27.154 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - [logTo,227] - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+16:53:27.154 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - [logTo,227] - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+16:53:31.385 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - [multipleStoresDetected,244] - Multiple Spring Data modules found, entering strict repository configuration mode!
+16:53:31.387 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - [registerRepositoriesIn,126] - Bootstrapping Spring Data repositories in DEFAULT mode.
+16:53:31.444 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - [registerRepositoriesIn,182] - Finished Spring Data repository scanning in 31ms. Found 0 repository interfaces.
+16:53:31.490 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - [multipleStoresDetected,244] - Multiple Spring Data modules found, entering strict repository configuration mode!
+16:53:31.493 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - [registerRepositoriesIn,126] - Bootstrapping Spring Data repositories in DEFAULT mode.
+16:53:31.522 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - [registerRepositoriesIn,182] - Finished Spring Data repository scanning in 8ms. Found 0 repository interfaces.
+16:53:33.181 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - [postProcessAfterInitialization,330] - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$dfd79877] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+16:53:34.988 [restartedMain] INFO  o.s.b.w.e.t.TomcatWebServer - [initialize,90] - Tomcat initialized with port(s): 8080 (http)
+16:53:35.022 [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-8080"]
+16:53:35.034 [restartedMain] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+16:53:35.035 [restartedMain] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet Engine: Apache Tomcat/9.0.12
+16:53:35.051 [restartedMain] INFO  o.a.c.c.AprLifecycleListener - [log,173] - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_131\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Java\jdk1.8.0_131\bin;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\MySQL\MySQL Server 5.5\bin;D:\maven\apache-maven-3.3.9-bin\apache-maven-3.3.9\bin;D:\Program Files (x86)\Git\cmd;D:\Program Files\Process Lasso;D:\Program Files\nodejs\;C:\Users\ThinkPad\AppData\Roaming\npm;;C:\WINDOWS\System32\OpenSSH\;C:\Users\ThinkPad\AppData\Local\Microsoft\WindowsApps;D:\Program Files\Microsoft VS Code\bin;C:\Users\ThinkPad\AppData\Roaming\npm;;.]
+16:53:35.365 [restartedMain] INFO  o.a.c.c.C.[.[.[/order] - [log,173] - Initializing Spring embedded WebApplicationContext
+16:53:35.366 [restartedMain] INFO  o.s.w.c.ContextLoader - [prepareWebApplicationContext,285] - Root WebApplicationContext: initialization completed in 8211 ms
+16:53:35.498 [restartedMain] INFO  o.s.b.w.s.ServletRegistrationBean - [addRegistration,186] - Servlet dispatcherServlet mapped to [*.action, /configuration/ui, /swagger-resources, /v2/api-docs, /configuration/security]
+16:53:35.501 [restartedMain] INFO  o.s.b.w.s.ServletRegistrationBean - [addRegistration,186] - Servlet dispatcherServlet mapped to [/]
+16:53:35.501 [restartedMain] INFO  o.s.b.w.s.RegistrationBean - [register,111] - Servlet dispatcherServlet was not registered (possibly already registered?)
+16:53:35.514 [restartedMain] INFO  o.s.b.w.s.FilterRegistrationBean - [configure,248] - Mapping filter: 'characterEncodingFilter' to: [/*]
+16:53:35.514 [restartedMain] INFO  o.s.b.w.s.FilterRegistrationBean - [configure,248] - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+16:53:35.516 [restartedMain] INFO  o.s.b.w.s.FilterRegistrationBean - [configure,248] - Mapping filter: 'formContentFilter' to: [/*]
+16:53:35.516 [restartedMain] INFO  o.s.b.w.s.FilterRegistrationBean - [configure,248] - Mapping filter: 'requestContextFilter' to: [/*]
+16:53:36.226 [restartedMain] INFO  c.a.d.p.DruidDataSource - [init,922] - {dataSource-1} inited
+16:53:40.871 [restartedMain] INFO  o.h.j.i.u.LogHelper - [logPersistenceUnitInformation,31] - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+16:53:41.048 [restartedMain] INFO  o.hibernate.Version - [logVersion,46] - HHH000412: Hibernate Core {5.3.7.Final}
+16:53:41.052 [restartedMain] INFO  o.h.cfg.Environment - [<clinit>,213] - HHH000206: hibernate.properties not found
+16:53:41.492 [restartedMain] INFO  o.h.a.common.Version - [<clinit>,49] - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+16:53:41.911 [restartedMain] INFO  o.h.dialect.Dialect - [<init>,157] - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+16:53:42.662 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - [buildNativeEntityManagerFactory,415] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+16:53:42.851 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - [startServer,57] - LiveReload server is running on port 35729
+16:53:46.518 [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor - [initialize,171] - Initializing ExecutorService 'applicationTaskExecutor'
+16:53:47.044 [restartedMain] INFO  n.o.j.J2CacheConfig - [getConfigStream,80] - Load J2Cache Config File : [/j2cache.properties].
+16:53:47.052 [restartedMain] INFO  n.o.j.u.SerializationUtils - [init,60] - Using Serializer -> [fst:net.oschina.j2cache.util.FSTSerializer]
+16:53:47.061 [restartedMain] INFO  n.o.j.CacheProviderHolder - [init,52] - Using L1 CacheProvider : net.oschina.j2cache.caffeine.CaffeineProvider
+16:53:47.107 [restartedMain] INFO  n.o.j.r.RedisCacheProvider - [start,81] - Redis client starts with mode(single),db(0),storage(generic),namespace(),time(39ms)
+16:53:47.107 [restartedMain] INFO  n.o.j.CacheProviderHolder - [init,58] - Using L2 CacheProvider : net.oschina.j2cache.redis.RedisCacheProvider
+16:53:47.416 [restartedMain] INFO  n.o.j.r.RedisPubSubClusterPolicy - [connect,92] - Connected to redis channel:j2cache, time 302 ms.
+16:53:47.417 [restartedMain] INFO  n.o.j.J2CacheBuilder - [initFromConfig,103] - Using cluster policy : net.oschina.j2cache.redis.RedisPubSubClusterPolicy
+16:53:49.145 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - [onApplicationEvent,84] - Context refreshed
+16:53:49.223 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - [onApplicationEvent,87] - Found 1 custom documentation plugin(s)
+16:53:49.258 [restartedMain] INFO  s.d.s.w.s.ApiListingReferenceScanner - [scan,44] - Scanning for api listing references
+16:53:49.798 [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-8080"]
+16:53:49.829 [restartedMain] INFO  o.a.t.u.n.NioSelectorPool - [log,173] - Using a shared selector for servlet write/read
+16:53:49.892 [restartedMain] INFO  o.s.b.w.e.t.TomcatWebServer - [start,204] - Tomcat started on port(s): 8080 (http) with context path '/order'
+16:53:49.903 [restartedMain] INFO  c.t.o.OrderApplication - [logStarted,59] - Started OrderApplication in 24.78 seconds (JVM running for 28.64)
+16:53:57.524 [http-nio-8080-exec-1] INFO  o.a.t.u.h.p.Cookie - [log,173] - A cookie header was received [1524736150; locale=zh; Hm_lvt_aa5c701f4f646931bf78b6f40b234ef5=1525417789,1525427291,1525743687; _ga=GA1.1.1360739712.1534838094; pt_516e11c4=uid=tVqwSVR-DpO91bwbCeiXVw&nid=0&vid=N49X6/VRYlfThjldZ0vo6Q&vn=3&pvn=1&sact=1540277303481&to_flag=0&pl=JlvIR0OyqFxueMBI24r4EA*pt*1540277298091; Hm_lvt_2b6aeb0d21ae89c0ce071c01e034597b=1540257608,1542364726; Hm_lvt_3767979e7494107d90440379bed07921=1540257609,1542364727; Hm_lvt_4656e49e8efa9f2ad6868ea26fb8984c=1544406961,1544685221] that contained an invalid cookie. That cookie will be ignored.Note: further occurrences of this error will be logged at DEBUG level.
+16:53:57.545 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[.[.[/order] - [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+16:53:57.545 [http-nio-8080-exec-1] INFO  o.s.w.s.DispatcherServlet - [initServletBean,521] - Initializing Servlet 'dispatcherServlet'
+16:53:57.581 [http-nio-8080-exec-1] INFO  o.s.w.s.DispatcherServlet - [initServletBean,543] - Completed initialization in 35 ms
+16:53:58.052 [http-nio-8080-exec-1] INFO  c.t.o.c.LoggerAdvice$$EnhancerBySpringCGLIB$$21fe8417 - [doBefore,45] - 地址URL : http://localhost:8080/order/goods/queryGoods.action
+16:53:58.053 [http-nio-8080-exec-1] INFO  c.t.o.c.LoggerAdvice$$EnhancerBySpringCGLIB$$21fe8417 - [doBefore,46] - 方法HTTP_METHOD : GET
+16:53:58.054 [http-nio-8080-exec-1] INFO  c.t.o.c.LoggerAdvice$$EnhancerBySpringCGLIB$$21fe8417 - [doBefore,47] - IP : 0:0:0:0:0:0:0:1
+16:53:58.075 [http-nio-8080-exec-1] INFO  c.t.o.c.LoggerAdvice$$EnhancerBySpringCGLIB$$21fe8417 - [doBefore,48] - 方法CLASS_METHOD : com.tz.order.controller.GoodsInfoController.queryGoods
+16:53:58.076 [http-nio-8080-exec-1] INFO  c.t.o.c.LoggerAdvice$$EnhancerBySpringCGLIB$$21fe8417 - [doBefore,49] - 参数ARGS : [1]
+16:53:58.500 [http-nio-8080-exec-1] INFO  i.l.c.EpollProvider - [info,101] - Starting without optional epoll library
+16:53:58.505 [http-nio-8080-exec-1] INFO  i.l.c.KqueueProvider - [info,101] - Starting without optional kqueue library
+16:53:59.757 [http-nio-8080-exec-1] INFO  c.t.o.c.GoodsInfoController - [info,19] - 操作人：谈健军--操作事项:根据商家id查询商品--参数:商家id:1
+16:53:59.760 [http-nio-8080-exec-1] INFO  c.t.o.c.LoggerAdvice$$EnhancerBySpringCGLIB$$21fe8417 - [logCostTime,73] - 类class:com.tz.order.controller.GoodsInfoController 方法method:queryGoods 耗时cost:1712ms
+16:53:59.762 [http-nio-8080-exec-1] INFO  c.t.o.c.LoggerAdvice$$EnhancerBySpringCGLIB$$21fe8417 - [doAfterReturning,66] - 返回结果RESPONSE : Result{code=200, msg='成功', data=[com.tz.order.domain.GoodsInfo@250a3132, com.tz.order.domain.GoodsInfo@1c4dffe3]}
+16:54:12.897 [http-nio-8080-exec-4] INFO  c.t.o.c.LoggerAdvice$$EnhancerBySpringCGLIB$$21fe8417 - [doBefore,45] - 地址URL : http://localhost:8080/order/goods/queryGoods.action
+16:54:12.897 [http-nio-8080-exec-4] INFO  c.t.o.c.LoggerAdvice$$EnhancerBySpringCGLIB$$21fe8417 - [doBefore,46] - 方法HTTP_METHOD : GET
+16:54:12.898 [http-nio-8080-exec-4] INFO  c.t.o.c.LoggerAdvice$$EnhancerBySpringCGLIB$$21fe8417 - [doBefore,47] - IP : 0:0:0:0:0:0:0:1
+16:54:12.898 [http-nio-8080-exec-4] INFO  c.t.o.c.LoggerAdvice$$EnhancerBySpringCGLIB$$21fe8417 - [doBefore,48] - 方法CLASS_METHOD : com.tz.order.controller.GoodsInfoController.queryGoods
+16:54:12.898 [http-nio-8080-exec-4] INFO  c.t.o.c.LoggerAdvice$$EnhancerBySpringCGLIB$$21fe8417 - [doBefore,49] - 参数ARGS : [1]
+16:54:13.055 [http-nio-8080-exec-4] INFO  c.t.o.c.GoodsInfoController - [info,19] - 操作人：谈健军--操作事项:根据商家id查询商品--参数:商家id:1
+16:54:13.056 [http-nio-8080-exec-4] INFO  c.t.o.c.LoggerAdvice$$EnhancerBySpringCGLIB$$21fe8417 - [logCostTime,73] - 类class:com.tz.order.controller.GoodsInfoController 方法method:queryGoods 耗时cost:159ms
+16:54:13.057 [http-nio-8080-exec-4] INFO  c.t.o.c.LoggerAdvice$$EnhancerBySpringCGLIB$$21fe8417 - [doAfterReturning,66] - 返回结果RESPONSE : Result{code=200, msg='成功', data=[com.tz.order.domain.GoodsInfo@7763bfcd, com.tz.order.domain.GoodsInfo@19d16ba6]}
+16:54:21.450 [http-nio-8080-exec-6] INFO  c.t.o.c.LoggerAdvice$$EnhancerBySpringCGLIB$$21fe8417 - [doBefore,45] - 地址URL : http://localhost:8080/order/goods/queryGoods.action
+16:54:21.451 [http-nio-8080-exec-6] INFO  c.t.o.c.LoggerAdvice$$EnhancerBySpringCGLIB$$21fe8417 - [doBefore,46] - 方法HTTP_METHOD : GET
+16:54:21.452 [http-nio-8080-exec-6] INFO  c.t.o.c.LoggerAdvice$$EnhancerBySpringCGLIB$$21fe8417 - [doBefore,47] - IP : 0:0:0:0:0:0:0:1
+16:54:21.453 [http-nio-8080-exec-6] INFO  c.t.o.c.LoggerAdvice$$EnhancerBySpringCGLIB$$21fe8417 - [doBefore,48] - 方法CLASS_METHOD : com.tz.order.controller.GoodsInfoController.queryGoods
+16:54:21.454 [http-nio-8080-exec-6] INFO  c.t.o.c.LoggerAdvice$$EnhancerBySpringCGLIB$$21fe8417 - [doBefore,49] - 参数ARGS : [1]
+16:54:21.458 [http-nio-8080-exec-6] INFO  c.t.o.c.GoodsInfoController - [info,19] - 操作人：谈健军--操作事项:根据商家id查询商品--参数:商家id:1
+16:54:21.459 [http-nio-8080-exec-6] INFO  c.t.o.c.LoggerAdvice$$EnhancerBySpringCGLIB$$21fe8417 - [logCostTime,73] - 类class:com.tz.order.controller.GoodsInfoController 方法method:queryGoods 耗时cost:9ms
+16:54:21.459 [http-nio-8080-exec-6] INFO  c.t.o.c.LoggerAdvice$$EnhancerBySpringCGLIB$$21fe8417 - [doAfterReturning,66] - 返回结果RESPONSE : Result{code=200, msg='成功', data=[com.tz.order.domain.GoodsInfo@4d7124b7, com.tz.order.domain.GoodsInfo@494ea9c1]}
+16:54:54.274 [http-nio-8080-exec-5] INFO  c.t.o.c.LoggerAdvice$$EnhancerBySpringCGLIB$$21fe8417 - [doBefore,45] - 地址URL : http://localhost:8080/order/goods/queryGoods.action
+16:54:54.275 [http-nio-8080-exec-5] INFO  c.t.o.c.LoggerAdvice$$EnhancerBySpringCGLIB$$21fe8417 - [doBefore,46] - 方法HTTP_METHOD : GET
+16:54:54.276 [http-nio-8080-exec-5] INFO  c.t.o.c.LoggerAdvice$$EnhancerBySpringCGLIB$$21fe8417 - [doBefore,47] - IP : 0:0:0:0:0:0:0:1
+16:54:54.277 [http-nio-8080-exec-5] INFO  c.t.o.c.LoggerAdvice$$EnhancerBySpringCGLIB$$21fe8417 - [doBefore,48] - 方法CLASS_METHOD : com.tz.order.controller.GoodsInfoController.queryGoods
+16:54:54.277 [http-nio-8080-exec-5] INFO  c.t.o.c.LoggerAdvice$$EnhancerBySpringCGLIB$$21fe8417 - [doBefore,49] - 参数ARGS : [1]
+16:54:54.283 [http-nio-8080-exec-5] INFO  c.t.o.c.GoodsInfoController - [info,19] - 操作人：谈健军--操作事项:根据商家id查询商品--参数:商家id:1
+16:54:54.284 [http-nio-8080-exec-5] INFO  c.t.o.c.LoggerAdvice$$EnhancerBySpringCGLIB$$21fe8417 - [logCostTime,73] - 类class:com.tz.order.controller.GoodsInfoController 方法method:queryGoods 耗时cost:10ms
+16:54:54.285 [http-nio-8080-exec-5] INFO  c.t.o.c.LoggerAdvice$$EnhancerBySpringCGLIB$$21fe8417 - [doAfterReturning,66] - 返回结果RESPONSE : Result{code=200, msg='成功', data=[com.tz.order.domain.GoodsInfo@17ba70b4, com.tz.order.domain.GoodsInfo@1385f69b]}
+16:57:33.598 [http-nio-8080-exec-2] INFO  c.t.o.c.LoggerAdvice$$EnhancerBySpringCGLIB$$21fe8417 - [doBefore,45] - 地址URL : http://localhost:8080/order/goods/queryGoods.action
+16:57:33.599 [http-nio-8080-exec-2] INFO  c.t.o.c.LoggerAdvice$$EnhancerBySpringCGLIB$$21fe8417 - [doBefore,46] - 方法HTTP_METHOD : GET
+16:57:33.600 [http-nio-8080-exec-2] INFO  c.t.o.c.LoggerAdvice$$EnhancerBySpringCGLIB$$21fe8417 - [doBefore,47] - IP : 0:0:0:0:0:0:0:1
+16:57:33.601 [http-nio-8080-exec-2] INFO  c.t.o.c.LoggerAdvice$$EnhancerBySpringCGLIB$$21fe8417 - [doBefore,48] - 方法CLASS_METHOD : com.tz.order.controller.GoodsInfoController.queryGoods
+16:57:33.601 [http-nio-8080-exec-2] INFO  c.t.o.c.LoggerAdvice$$EnhancerBySpringCGLIB$$21fe8417 - [doBefore,49] - 参数ARGS : [1]
+16:57:33.605 [http-nio-8080-exec-2] INFO  c.t.o.c.GoodsInfoController - [info,19] - 操作人：谈健军--操作事项:根据商家id查询商品--参数:商家id:1
+16:57:33.606 [http-nio-8080-exec-2] INFO  c.t.o.c.LoggerAdvice$$EnhancerBySpringCGLIB$$21fe8417 - [logCostTime,73] - 类class:com.tz.order.controller.GoodsInfoController 方法method:queryGoods 耗时cost:8ms
+16:57:33.606 [http-nio-8080-exec-2] INFO  c.t.o.c.LoggerAdvice$$EnhancerBySpringCGLIB$$21fe8417 - [doAfterReturning,66] - 返回结果RESPONSE : Result{code=200, msg='成功', data=[com.tz.order.domain.GoodsInfo@45c6634, com.tz.order.domain.GoodsInfo@415ef8db]}
